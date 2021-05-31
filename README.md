@@ -1,2 +1,2 @@
 # Valhalla
-Task Force 121 Valhalla Framework
+Task Force 121 Valhalla Mod
