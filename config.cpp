@@ -1,5 +1,5 @@
 /// Utilizing includes ///
-//Github repo 121MSV
+//Github repo VALHALLA
 
 	#include "cfgPatches.hpp"
 	#include "cfgWeapons_MSV.hpp"
