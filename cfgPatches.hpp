@@ -14,6 +14,15 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]={"A3_Characters_F"};
 	};
+	class 75th_RR
+	{
+		units[]=
+		{
+			"75th_RR_Soldier_base_f", "75th_RR_Platoon_Leader", "75th_Medic", "75th_RR_Platoon_Sgt", "75th_RR_JTAC", "75th_RR_Squad_Leader", "75th_RR_FTL", "75th_RR_Rifleman", "75th_RR_AR", "75th_RR_Grenadier", "75th_RR_MG", "75th_RR_AMG", "75th_RR_AT", "75th_RR_AAT"
+		};
+		requiredVersion=0.1;
+		requiredAddons[]={A3_Characters_F"};
+	};
 };
 class CfgFactionClasses
 {
@@ -21,6 +30,13 @@ class CfgFactionClasses
 	{
 		displayName="121st Motostrelki Division";
 		priority=5;
+		side=1;
+		icon= "";
+	};
+	class 75th_RR
+	{
+		displayName="75th Ranger Regiment";
+		priority=4;
 		side=1;
 		icon= "";
 	};
