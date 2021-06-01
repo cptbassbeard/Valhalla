@@ -5,4 +5,5 @@
 	#include "cfgFactionClasses.hpp"
 	#include "cfgWeapons_MSV.hpp"
 	#include "cfgVehicles_MSV.hpp"
+	#include "cfgVehicles_75th.hpp"
 	#include "cfgUnits_MSV.hpp"
