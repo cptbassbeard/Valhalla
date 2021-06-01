@@ -3,7 +3,6 @@
 
 	#include "cfgPatches.hpp"
 	#include "cfgFactionClasses.hpp"
-	#include "cfgWeapons_MSV.hpp"
-	#include "cfgVehicles_MSV.hpp"
-	#include "cfgVehicles_75th.hpp"
-	#include "cfgUnits_MSV.hpp"
+	#include "cfgWeapons.hpp"
+	#include "cfgVehicles.hpp"
+	#include "cfgUnits.hpp"
