@@ -7,11 +7,4 @@ class CfgFactionClasses
 		side=1;
 		icon= "";
 	};
-	class 75th_RR
-	{
-		displayName="75th Ranger Regiment";
-		priority=4;
-		side=1;
-		icon= "";
-	};
 };
