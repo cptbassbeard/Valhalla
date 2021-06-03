@@ -2,8 +2,8 @@
 class cfgVehicles
 {
 
-	class g3roll_mc_uniform;
-	class 75thRR_Soldier_base_f: g3roll_mc_uniform
+	class g3roll_mc;
+	class 75thRR_Soldier_base_f: g3roll_mc
 	{
 		author = "Team Valhalla";
 		scope = 2;
