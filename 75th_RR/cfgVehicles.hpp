@@ -10,9 +10,9 @@ class cfgVehicles
 		side = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
-		displayName = "75th Ranger Regiment - Base Soldier";
+		displayName = "75th RR - Base Soldier";
 		modelSides[]={0,1,2,3};
-		faction="75th_RR"
+		faction="75th_RR";
 		backpack="";
 		items[] = {};
 		respawnItems[] = {};
