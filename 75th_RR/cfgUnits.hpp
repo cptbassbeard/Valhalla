@@ -8,6 +8,11 @@ class cfgGroups
 		class 75th_RR
 		{
 			name = "75th Ranger Regiment"
-		};	
-	};		
+			class Infantry
+				{
+					Name = "Infantry";
+					
+				};
+		};
+	};
 };

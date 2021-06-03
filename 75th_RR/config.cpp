@@ -5,4 +5,3 @@
 	#include "cfgWeapons.hpp"
 	#include "cfgVehicles.hpp"
 	#include "cfgUnits.hpp"
-	#include "cfgUnits.hpp"
