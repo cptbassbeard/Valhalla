@@ -11,7 +11,6 @@ class cfgVehicles
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		displayName = "75th_RR_Base_Soldier";
-		modelSides[]={0,1,2,3};
 		faction="75th_RR";
 		backpack="";
 		items[] = {IFAK};
