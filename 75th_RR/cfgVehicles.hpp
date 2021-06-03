@@ -1,4 +1,6 @@
-
+#include "defines.hpp"
+class cfgVehicles
+{
 
 	class g3_mc;
 	class 75th_RR_Soldier_base_f: g3_mc
@@ -19,3 +21,4 @@
 		weapons[] = {flb_M4A1_URGI_B5_13_FDE, throw, put};
 		respawnWeapon[] = {rhs_weap_mk18, throw, put};
 	};
+};

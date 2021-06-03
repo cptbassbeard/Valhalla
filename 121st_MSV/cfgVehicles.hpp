@@ -1,5 +1,7 @@
 /// Base 121 MSV Units Define ///
-
+#include "defines.hpp"
+class cfgVehicles
+{
 	class CUP_O_RUS_Patrol_bag_summer; //declare backpack for use as inheritance
 	class SUMMER_MEDIC_BAG: CUP_O_RUS_Patrol_bag_Summer // defines medical bag
 	{
@@ -258,3 +260,4 @@
 		class TransportWeapons{};
 		class TransportBackpacks{};
 	};
+};
