@@ -2,8 +2,8 @@
 class cfgVehicles
 {
 
-	class CUP_B_BAF_Soldier_AT_WDL;
-	class 75thRR_Soldier_base_f: CUP_B_BAF_Soldier_AT_WDL
+	class B_SOLDIER_SL_F;
+	class 75thRR_Soldier_base_f: B_SOLDIER_SL_F
 	{
 		author = "Team Valhalla";
 		scope = 2;
