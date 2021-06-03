@@ -6,7 +6,7 @@ class cfgVehicles
 	class 75th_RR_Soldier_base_f: g3_mc
 	{
 		author = "Team Valhalla";
-		scope = 1;
+		scope = 2;
 		side = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
