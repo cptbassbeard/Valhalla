@@ -23,7 +23,7 @@ class cfgWeapons
 			};
 			class LinkedItemsMuzzle
 			{
-				item = "FLB_556_cordurawrap_tan_V2";
+				item = "FLB_556_cordurawrap_blk_V2";
 				slot = "MuzzleSlot";
 			};
 		};
