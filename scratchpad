@@ -1,0 +1,29 @@
+
+class cfgWeapons {
+class arifle_MX_SW_F;
+
+class arifle_MX_SW_ACO_AToW: arifle_MX_SW_F {
+
+class LinkedItems {
+
+class LinkedItemsOptic {
+
+item = "optic_ACO";
+
+slot = "CowsSlot";
+
+};
+
+class LinkedItemsAcc {
+
+item = "acc_pointer_IR";
+
+slot = "PointerSlot";
+
+};
+
+};
+
+};
+
+};
