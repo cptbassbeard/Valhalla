@@ -21,6 +21,11 @@ class cfgWeapons
 				item = "flb_RS_Karve_Handstop_TOB_Blk";
 				slot = "bipodSlot";
 			};
+			class LinkedItemMuzzle
+			{
+				item = "FLB_556_cordurawrap_tan_V2";
+				slot = "MuzzleSlot";
+			};
 		};
 	};
 };
