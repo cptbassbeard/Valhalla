@@ -17,7 +17,7 @@ class cfgVehicles
 		respawnItems[] = {IFAK};
 		linkedItems[] = {flb_CryeAVS_Assault01_GEAR_A_300_MCM, ItemCompass, ItemMap, ItemWatch, ACE_MapTools,FLB_PVS31_Tan_02,flb_opscover_peltor_C_03};
 		respawnlinkedItems[] = {flb_CryeAVS_Assault01_GEAR_A_300_MCM, ItemCompass, ItemMap, ItemWatch, ACE_MapTools,FLB_PVS31_Tan_02,flb_opscover_peltor_C_03};
-		weapons[] = {flb_M4A1_URGI_B5_13_FDE, throw, put};
-		respawnWeapon[] = {rhs_weap_mk18, throw, put};
+		weapons[] = {Ranger_M4_BLK3, throw, put};
+		respawnWeapon[] = {Ranger_M4_BLK3, throw, put};
 	};
 };
