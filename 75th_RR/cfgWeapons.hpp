@@ -1,12 +1,13 @@
 class cfgWeapons
 {
-	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_FDE
+	class flb_M4A1_URGI_B5_13_MIX;
+	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX
 	{
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
-				item = "FLB_VUDU_GeisseleM_RMR45t_1_6_BLK";
+				item = "SMA_eotechG33_3XUP";
 				slot = "CowsSlot";
 			};
 
@@ -14,6 +15,11 @@ class cfgWeapons
 			{
 				item = "flb_NGAL_M300_Blk_ComboLaser_02";
 				slot = "PointerSlot";
+			};
+			class LinkedItemsBipod
+			{
+				item = "flb_RS_Karve_Handstop_TOB_Blk";
+				slot = "bipodSlot";
 			};
 		};
 	};

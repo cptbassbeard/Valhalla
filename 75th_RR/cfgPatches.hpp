@@ -11,7 +11,7 @@ class CfgPatches
 		};
 		weapons[]=
 		{
-			"Ranger_Glock", "Ranger_M4_BLK3", "Ranger_SAW", "RANGER_MK11", "RANGER_240","RANGER_M2010"
+			"Ranger_Glock", "Ranger_M4_BLK3", "Ranger_SAW", "RANGER_MK11", "RANGER_240","RANGER_M2010", "RANGER_M107"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]={"A3_Characters_F"};
