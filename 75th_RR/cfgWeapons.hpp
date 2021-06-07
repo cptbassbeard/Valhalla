@@ -3,6 +3,7 @@ class cfgWeapons
 	class flb_M4A1_URGI_B5_13_MIX;
 	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX
 	{
+		scope = 1;
 		class LinkedItems
 		{
 			class LinkedItemsOptic
