@@ -7,24 +7,23 @@ class cfgWeapons
 		{
 			class LinkedItemsOptic
 			{
-				item = "SMA_eotechG33_3XUP";
 				slot = "CowsSlot";
+				item = "SMA_eotechG33_3XUP";
 			};
-
 			class LinkedItemsAcc
 			{
-				item = "flb_NGAL_M300_Blk_ComboLaser_02";
 				slot = "PointerSlot";
+				item = "flb_NGAL_M300_Blk_ComboLaser_02";
 			};
 			class LinkedItemsBipod
 			{
-				item = "flb_RS_Karve_Handstop_TOB_Blk";
 				slot = "bipodSlot";
+				item = "flb_RS_Karve_Handstop_TOB_Blk";
 			};
 			class LinkedItemsMuzzle
 			{
-				item = "FLB_556_cordurawrap_tan_V2";
 				slot = "MuzzleSlot";
+				item = "FLB_556_cordurawrap_tan_V2";
 			};
 		};
 	};
