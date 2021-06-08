@@ -15,11 +15,6 @@ class cfgWeapons
 				slot = "MuzzleSlot";
 				item = "FLB_556_cordurawrap_tan_V2";
 			};
-			class LinkedItemsOptic
-			{
-				slot = "CowsSlot";
-				item = "SMA_eotechG33_3XUP";
-			};
 			class LinkedItemsAcc
 			{
 				slot = "PointerSlot";
@@ -29,6 +24,11 @@ class cfgWeapons
 			{
 				slot = "bipodSlot";
 				item = "flb_RS_Karve_Handstop_TOB_Blk";
+			};
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "SMA_eotechG33_3XDOWN";
 			};
 		};
 	};
