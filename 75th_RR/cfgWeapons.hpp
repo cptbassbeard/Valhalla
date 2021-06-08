@@ -1,12 +1,11 @@
 class cfgWeapons
 {
 	class WeaponSlotInfo;
-	class MuzzleSlot;
-	class flb_M4A1_URGI_B5_13_MIX_grip4;
-	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX_grip4
+	class flb_M4A1_URGI_B5_13_MIX;
+	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX
 	{
 		author="Team Valhalla";
-		baseWeapon="flb_M4A1_URGI_B5_13_MIX_grip4";
+		baseWeapon="flb_M4A1_URGI_B5_13_MIX";
 		displayName= "Ranger M4A1 Block 3";
 		scope = 2;
 		class LinkedItems
