@@ -1,6 +1,5 @@
 class cfgWeapons
 {
-	class WeaponSlotInfo;
 	class flb_M4A1_URGI_B5_13_MIX_grip4;
 	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX_grip4
 	{
@@ -22,13 +21,13 @@ class cfgWeapons
 			};
 			class LinkedItemsBipod
 			{
-				slot = "bipodSlot";
+				slot = "GripodSlot";
 				item = "flb_RS_Karve_Handstop_TOB_Blk";
 			};
 			class LinkedItemsOptic
 			{
 				slot = "CowsSlot";
-				item = "SMA_eotechG33_3XDOWN";
+				item = "SMA_eotechG33_3XUP";
 			};
 		};
 	};
