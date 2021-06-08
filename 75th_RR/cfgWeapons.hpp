@@ -1,11 +1,11 @@
 class cfgWeapons
 {
 	class WeaponSlotInfo;
-	class flb_M4A1_URGI_B5_13_MIX;
-	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX
+	class SMA_Mk16QCB;
+	class Ranger_M4_BLK3: SMA_Mk16QCB
 	{
 		author="Team Valhalla";
-		baseWeapon="flb_M4A1_URGI_B5_13_MIX";
+		baseWeapon="SMA_Mk16QCB";
 		displayName= "Ranger M4A1 Block 3";
 		scope = 2;
 		class LinkedItems
