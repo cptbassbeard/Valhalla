@@ -7,7 +7,7 @@ class cfgWeapons
 	{
 		author="Team Valhalla";
 		baseWeapon="flb_M4A1_URGI_B5_13_MIX";
-		displayName= "Ranger M4A1 Block 3"
+		displayName= "Ranger M4A1 Block 3";
 		class MuzzleSlot: MuzzleSlot {
 			compatibleItems[] = {
 				"FLB_556_cordurawrap_tan_v2";
