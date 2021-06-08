@@ -2,20 +2,20 @@ class cfgWeapons
 {
 	class WeaponSlotInfo;
 	class MuzzleSlot;
-	class flb_M4A1_URGI_B5_13_MIX;
-	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX
+	class flb_M4A1_URGI_B5_13_MIX_grip4;
+	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX_grip4
 	{
 		author="Team Valhalla";
-		baseWeapon="flb_M4A1_URGI_B5_13_MIX";
+		baseWeapon="flb_M4A1_URGI_B5_13_MIX_grip4";
 		displayName= "Ranger M4A1 Block 3";
-		class MuzzleSlot: MuzzleSlot {
-			compatibleItems[] = {
-				"FLB_556_cordurawrap_tan_v2";
-			};
-		};
 		scope = 2;
 		class LinkedItems
 		{
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "FLB_556_cordurawrap_tan_V2";
+			};
 			class LinkedItemsOptic
 			{
 				slot = "CowsSlot";
@@ -30,11 +30,6 @@ class cfgWeapons
 			{
 				slot = "bipodSlot";
 				item = "flb_RS_Karve_Handstop_TOB_Blk";
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = "MuzzleSlot";
-				item = "FLB_556_cordurawrap_tan_V2";
 			};
 		};
 	};
