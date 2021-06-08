@@ -4,9 +4,6 @@ class cfgWeapons
 	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX
 	{
 		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
-		baseWeapon = "flb_M4A1_URGI_B5_13_MIX";
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -27,7 +24,7 @@ class cfgWeapons
 			class LinkedItemsMuzzle
 			{
 				slot = "MuzzleSlot";
-				item = "rhsusf_acc_nt4_black";
+				item = "FLB_556_cordurawrap_tan_V2";
 			};
 		};
 	};
