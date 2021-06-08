@@ -1,6 +1,18 @@
 class cfgWeapons
 {
-	class flb_M4A1_URGI_B5_13_MIX_grip4;
+	//base weapon class calls
+	class flb_M4A1_URGI_B5_13_MIX_grip4; //M4 Block III Source
+	class rhsusf_weap_glock17g4; // Glock 17 Source
+	class SMA_Mk16CQB; // Mk16 Source
+	class flb_M4_DDMK18_B5_Paint1_grip2; //MK18 Source
+	class rhs_weap_m249_light_S_vfg2; //m249 lMG Source
+	class sma_minimi_mk3_762tsb; //MK48 MMG Source
+	class rhs_weap_m240B; //M240B MMG Source
+	class SMA_Mk17; //MK17 Source
+	class FLB_sr25_FDE; //M110 DMR Source
+	class flb_mk12_spr_blk; //Mk12 DMR Source
+
+	//custom weapon configs
 	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX_grip4
 	{
 		author="Team Valhalla";
@@ -31,4 +43,5 @@ class cfgWeapons
 			};
 		};
 	};
+
 };
