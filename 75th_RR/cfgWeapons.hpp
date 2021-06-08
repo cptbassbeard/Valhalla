@@ -22,7 +22,7 @@ class cfgWeapons
 			class LinkedItemsBipod
 			{
 				slot = "GripodSlot";
-				item = "flb_RS_Karve_Handstop_TOB_Blk";
+				item = "flb_BCM_KAG_TOB_Blk";
 			};
 			class LinkedItemsOptic
 			{
