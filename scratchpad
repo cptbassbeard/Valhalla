@@ -180,3 +180,59 @@ this linkItem "ItemGPS";
 
 comment "Set identity";
 [this,"Kelly","ace_novoice"] call BIS_fnc_setIdentity;
+
+
+
+comment "Exported from Arsenal by MAJ Cullen";
+
+comment "[!] UNIT MUST BE LOCAL [!]";
+if (!local this) exitWith {};
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add weapons";
+this addWeapon "SMA_Mk16QCB";
+this addPrimaryWeaponItem "acc_pointer_IR";
+this addPrimaryWeaponItem "optic_Aco";
+this addPrimaryWeaponItem "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+this addWeapon "hgun_P07_F";
+this addHandgunItem "16Rnd_9x21_Mag";
+
+comment "Add containers";
+this forceAddUniform "tshirt_mc_grunt_uniform";
+this addVest "V_PlateCarrier1_rgr";
+
+comment "Add items to containers";
+this addItemToUniform "ACE_fieldDressing";
+this addItemToUniform "ACE_packingBandage";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+for "_i" from 1 to 3 do {this addItemToUniform "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
+for "_i" from 1 to 2 do {this addItemToVest "16Rnd_9x21_Mag";};
+this addItemToVest "SmokeShell";
+this addItemToVest "SmokeShellGreen";
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+this addHeadgear "H_HelmetB";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+this linkItem "NVGoggles";
+
+comment "Set identity";
+[this,"Default","ace_novoice"] call BIS_fnc_setIdentity;
+
+
+
+[["Ranger_MK16","SMA_supp1TB_556","FLB_peq_m600_LOK_ComboLaser_blk","SMA_eotech552_3XDOWN",[],[],""],[],["Ranger_M17","","flb_acc_X300u_blk","",[],[],""],["g3roll_mc_uniform",[["ACE_quikclot",7],["ACE_tourniquet",2],["ACE_packingBandage",5],["ACE_elasticBandage",3],["ACE_EarPlugs",2],["30Rnd_65x39_caseless_mag",3,30]]],["flb_CryeAVS_Assault01_GEAR_A_300_MCM",[["30Rnd_65x39_caseless_mag",7,30],["16Rnd_9x21_Mag",3,17],["SmokeShell",1,1],["SmokeShellGreen",1,1],["Chemlight_green",2,1],["HandGrenade",2,1]]],[],"flb_opscover_peltor_C_03","flb_diving_mask",[],["ItemMap","","","ItemCompass","ItemWatch","FLB_PVS31_Tan_02"]]

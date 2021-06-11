@@ -3,7 +3,7 @@ class cfgWeapons
 	//base weapon class calls
 	class flb_M4A1_URGI_B5_13_MIX_grip4; //M4 Block III Source
 	class flb_Glock19_WAR_blktan; // Glock 19 Source
-	class SMA_Mk16CQB; // Mk16 Source
+	class SMA_Mk16QCB; // Mk16 Source
 	class flb_M4_DDMK18_B5_Paint1_grip2; //MK18 Source
 	class rhs_weap_m249_light_S_vfg2; //m249 lMG Source
 	class sma_minimi_mk3_762tsb; //MK48 MMG Source
@@ -80,33 +80,33 @@ class cfgWeapons
 			};
 		};
 	};
-	class Ranger_MK16: SMA_Mk16CQB
+	class Ranger_MK16: SMA_Mk16QCB
 	{
 		author="Team Valhalla";
-		baseWeapon="SMA_Mk16CQB";
+		baseWeapon="SMA_Mk16QCB";
 		displayName= "Ranger MK16 CQB";
 		scope = 2;
 		class LinkedItems
 		{
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "SMA_supp1TB_556";
+			};
 			class LinkedItemsAcc
 			{
 				slot = "PointerSlot";
-				item = "flb_NGAL_M300_Blk_ComboLaser_02";
+				item = "FLB_peq_m600_LOK_ComboLaser_blk";
 			};
 			class LinkedItemsOptic
 			{
-				slot = "CowsSlot";
-				item = "SMA_eotechG33_3XUP";
+				slot = "asdg_OpticRail_SMAAssault";
+				item = "SMA_eotech552_3XDOWN";
 			};
 			class LinkedItemsBipod
 			{
 				slot = "GripodSlot";
 				item = "flb_BCM_KAG_TOB_Blk";
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = "MuzzleSlot";
-				item = "FLB_556_cordurawrap_tan_V2";
 			};
 		};
 	};
