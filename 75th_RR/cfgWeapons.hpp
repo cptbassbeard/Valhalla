@@ -11,6 +11,7 @@ class cfgWeapons
 	class SMA_Mk17; //MK17 Source
 	class FLB_sr25_FDE; //M110 DMR Source
 	class flb_mk12_spr_blk; //Mk12 DMR Source
+	class rhs_weap_M320; // M320 Source
 
 	//custom weapon configs
 	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX_grip4
@@ -57,6 +58,21 @@ class cfgWeapons
 				item = "flb_Docter_RDS_blk";
 			};
 			class LinkedItemAcc
+			{
+				slot = "PointerSlot";
+				item = "flb_acc_X300u_blk";
+			};
+		};
+	};
+	class Ranger_M17
+	{
+		author="Team Valhalla";
+		baseWeapon="";
+		displayName= "Ranger Spec M17";
+		scope = 2;
+		class LinkedItems
+		{
+			class LinkedItemsAcc
 			{
 				slot = "PointerSlot";
 				item = "flb_acc_X300u_blk";
