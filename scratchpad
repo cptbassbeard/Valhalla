@@ -1,4 +1,41 @@
 
+comment "Exported from Arsenal by MAJ Cullen";
+
+comment "[!] UNIT MUST BE LOCAL [!]";
+if (!local this) exitWith {};
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add weapons";
+this addWeapon "CUP_hgun_M17_Black";
+this addHandgunItem "flb_acc_X300u_blk";
+this addHandgunItem "CUP_21Rnd_9x19_M17_Black";
+
+comment "Add containers";
+this forceAddUniform "CUP_U_C_Rocker_02";
+this addVest "6094_HEAVY_od";
+
+comment "Add items to containers";
+for "_i" from 1 to 3 do {this addItemToVest "CUP_21Rnd_9x19_M17_Black";};
+
+comment "Add items";
+this linkItem "ItemWatch";
+this linkItem "ItemRadioAcreFlagged";
+
+comment "Set identity";
+[this,"Default","ace_novoice"] call BIS_fnc_setIdentity;
+
+
+
+
 class cfgWeapons {
 class arifle_MX_SW_F;
 

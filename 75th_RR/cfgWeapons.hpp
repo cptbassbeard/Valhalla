@@ -12,6 +12,7 @@ class cfgWeapons
 	class FLB_sr25_FDE; //M110 DMR Source
 	class flb_mk12_spr_blk; //Mk12 DMR Source
 	class rhs_weap_M320; // M320 Source
+	class CUP_hgun_M17_Black; //M17 Source
 
 	//custom weapon configs
 	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX_grip4
@@ -64,10 +65,10 @@ class cfgWeapons
 			};
 		};
 	};
-	class Ranger_M17
+	class Ranger_M17: CUP_hgun_M17_Black
 	{
 		author="Team Valhalla";
-		baseWeapon="";
+		baseWeapon="CUP_hgun_M17_Black";
 		displayName= "Ranger Spec M17";
 		scope = 2;
 		class LinkedItems
@@ -76,6 +77,36 @@ class cfgWeapons
 			{
 				slot = "PointerSlot";
 				item = "flb_acc_X300u_blk";
+			};
+		};
+	};
+	class Ranger_MK16: SMA_Mk16CQB
+	{
+		author="Team Valhalla";
+		baseWeapon="SMA_Mk16CQB";
+		displayName= "Ranger MK16 CQB";
+		scope = 2;
+		class LinkedItems
+		{
+			class LinkedItemsAcc
+			{
+				slot = "PointerSlot";
+				item = "flb_NGAL_M300_Blk_ComboLaser_02";
+			};
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "SMA_eotechG33_3XUP";
+			};
+			class LinkedItemsBipod
+			{
+				slot = "GripodSlot";
+				item = "flb_BCM_KAG_TOB_Blk";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "FLB_556_cordurawrap_tan_V2";
 			};
 		};
 	};
