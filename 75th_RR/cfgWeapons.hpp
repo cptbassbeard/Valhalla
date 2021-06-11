@@ -2,7 +2,7 @@ class cfgWeapons
 {
 	//base weapon class calls
 	class flb_M4A1_URGI_B5_13_MIX_grip4; //M4 Block III Source
-	class rhsusf_weap_glock17g4; // Glock 17 Source
+	class flb_Glock19_WAR_blktan; // Glock 19 Source
 	class SMA_Mk16CQB; // Mk16 Source
 	class flb_M4_DDMK18_B5_Paint1_grip2; //MK18 Source
 	class rhs_weap_m249_light_S_vfg2; //m249 lMG Source
@@ -43,5 +43,24 @@ class cfgWeapons
 			};
 		};
 	};
-
+	class Ranger_Glock19: flb_Glock19_WAR_blktan
+	{
+		author="Team Valhalla";
+		baseWeapon="flb_Glock19_WAR_blktan";
+		displayName= "Ranger Spec Glock 19";
+		scope = 2;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "flb_Docter_RDS_blk";
+			};
+			class LinkedItemAcc
+			{
+				slot = "PointerSlot";
+				item = "flb_acc_X300u_blk";
+			};
+		};
+	};
 };

@@ -79,3 +79,67 @@ this linkItem "FLB_PVS31_Tan_02";
 
 comment "Set identity";
 [this,"Default",""] call BIS_fnc_setIdentity;
+
+
+
+comment "Exported from Arsenal by MAJ Cullen";
+
+comment "[!] UNIT MUST BE LOCAL [!]";
+if (!local this) exitWith {};
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add weapons";
+this addWeapon "rhs_weap_m4a1_blockII_grip_bk";
+this addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
+this addPrimaryWeaponItem "SMA_ELCAN_SPECTER_RDS";
+this addPrimaryWeaponItem "rhs_mag_30Rnd_556x45_Mk318_Stanag";
+this addPrimaryWeaponItem "rhsusf_acc_grip3";
+this addWeapon "flb_Glock19_WAR_blktan";
+this addHandgunItem "flb_acc_X300u_blk";
+this addHandgunItem "flb_Docter_RDS_blk";
+this addHandgunItem "flb_Glock_17rnd_mag_JHP";
+
+comment "Add containers";
+this forceAddUniform "rhs_uniform_FROG01_d";
+this addVest "6094_SCOUT_od";
+this addBackpack "B_Kitbag_cbr";
+
+comment "Add binoculars";
+this addWeapon "Rangefinder";
+
+comment "Add items to containers";
+this addItemToUniform "ACE_EarPlugs";
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_EntrenchingTool";
+this addItemToVest "flb_Gemtech_Tundra_TAN";
+this addItemToVest "flb_Gemtech_Tundra_BLK";
+for "_i" from 1 to 2 do {this addItemToVest "flb_Glock_17rnd_mag_JHP";};
+for "_i" from 1 to 2 do {this addItemToBackpack "ACE_CableTie";};
+for "_i" from 1 to 15 do {this addItemToBackpack "ACE_quikclot";};
+this addItemToBackpack "ACE_salineIV_250";
+for "_i" from 1 to 2 do {this addItemToBackpack "ACE_tourniquet";};
+this addItemToBackpack "ACE_EarPlugs";
+this addItemToBackpack "ACE_IR_Strobe_Item";
+this addItemToBackpack "rhsusf_acc_nt4_black";
+this addItemToBackpack "acc_flashlight";
+this addItemToBackpack "ACRE_PRC152";
+for "_i" from 1 to 2 do {this addItemToBackpack "ACE_Chemlight_HiOrange";};
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadioAcreFlagged";
+this linkItem "ItemGPS";
+
+comment "Set identity";
+[this,"Kelly","ace_novoice"] call BIS_fnc_setIdentity;
