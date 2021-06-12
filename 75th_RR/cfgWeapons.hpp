@@ -22,7 +22,7 @@ class cfgWeapons
 		baseWeapon="flb_M4A1_URGI_B5_13_MIX_grip4";
 		displayName= "Ranger M4A1 Block 3";
 		scope = 2;
-		scopeCurator = 2;
+		scopeArsenal = 2;
 		editorCategory = "Ranger Weapons";
 		editorSubcategory = "5.56 Assault Rifles";
 		class LinkedItems
@@ -55,7 +55,7 @@ class cfgWeapons
 		baseWeapon="flb_Glock19_WAR_blktan";
 		displayName= "Ranger Spec Glock 19";
 		scope = 2;
-		scopeCurator = 2;
+		scopeArsenal = 2;
 		editorCategory = "Ranger Weapons";
 		editorSubcategory = "Sidearms";
 		class LinkedItems
@@ -78,7 +78,7 @@ class cfgWeapons
 		baseWeapon="CUP_hgun_M17_Black";
 		displayName= "Ranger Spec M17";
 		scope = 2;
-		scopeCurator = 2;
+		scopeArsenal = 2;
 		editorCategory = "Ranger Weapons";
 		editorSubcategory = "Sidearms";
 		class LinkedItems
@@ -96,7 +96,7 @@ class cfgWeapons
 		baseWeapon="SMA_Mk16QCB";
 		displayName= "Ranger MK16 CQB";
 		scope = 2;
-		scopeCurator = 2;
+		scopeArsenal = 2;
 		editorCategory = "Ranger Weapons";
 		editorSubcategory = "5.56 Assault Rifles";
 		class LinkedItems
@@ -129,7 +129,7 @@ class cfgWeapons
 		baseWeapon = "rhs_weap_M107_d";
 		displayName = "Ranger M107 Light .50BMG";
 		scope = 2;
-		scopeCurator = 2;
+		scopeArsenal = 2;
 		editorCategory = "Ranger Weapons";
 		editorSubcategory = "Sniper Rifles";
 		class LinkedItems
@@ -147,7 +147,7 @@ class cfgWeapons
 		baseWeapon = "flb_M4_DDMK18_B5_Paint1_grip2";
 		displayName = "Ranger DDMK18";
 		scope = 2;
-		scopeCurator = 2;
+		scopeArsenal = 2;
 		editorCategory = "Ranger Weapons";
 		editorSubcategory = "5.56 Assault Rifles";
 		class LinkedItems
@@ -180,7 +180,7 @@ class cfgWeapons
 		baseWeapon = "flb_Mk12_SPR_blk";
 		displayName = "Ranger MK12 DPR";
 		scope = 2;
-		scopeCurator = 2;
+		scopeArsenal = 2;
 		editorCategory = "Ranger Weapons";
 		editorSubcategory = "DMR Rifles";
 		class LinkedItems
@@ -213,7 +213,7 @@ class cfgWeapons
 		baseWeapon = "FLB_SR25_fde";
 		displayName = "Ranger M110 DMR";
 		scope = 2;
-		scopeCurator = 2;
+		scopeArsenal = 2;
 		editorCategory = "Ranger Weapons";
 		editorSubcategory = "DMR Rifles";
 		class LinkedItems
