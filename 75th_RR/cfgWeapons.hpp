@@ -116,7 +116,7 @@ class cfgWeapons
 		class LinkedItemsOptic
 		{
 			slot = "CowsSlot";
-			item = "rhsusf_acc_premier_mrds";
+			item = "rhsusf_acc_M8541_mrds";
 		};
 	};
 };
