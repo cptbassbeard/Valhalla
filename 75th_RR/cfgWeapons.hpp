@@ -23,8 +23,6 @@ class cfgWeapons
 		displayName= "Ranger M4A1 Block 3";
 		scope = 2;
 		scopeArsenal = 2;
-		editorCategory = "Ranger Weapons";
-		editorSubcategory = "5.56 Assault Rifles";
 		class LinkedItems
 		{
 			class LinkedItemsMuzzle
@@ -56,8 +54,6 @@ class cfgWeapons
 		displayName= "Ranger Spec Glock 19";
 		scope = 2;
 		scopeArsenal = 2;
-		editorCategory = "Ranger Weapons";
-		editorSubcategory = "Sidearms";
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -79,8 +75,6 @@ class cfgWeapons
 		displayName= "Ranger Spec M17";
 		scope = 2;
 		scopeArsenal = 2;
-		editorCategory = "Ranger Weapons";
-		editorSubcategory = "Sidearms";
 		class LinkedItems
 		{
 			class LinkedItemsAcc
@@ -97,8 +91,6 @@ class cfgWeapons
 		displayName= "Ranger MK16 CQB";
 		scope = 2;
 		scopeArsenal = 2;
-		editorCategory = "Ranger Weapons";
-		editorSubcategory = "5.56 Assault Rifles";
 		class LinkedItems
 		{
 			class LinkedItemsMuzzle
@@ -130,8 +122,6 @@ class cfgWeapons
 		displayName = "Ranger M107 Light .50BMG";
 		scope = 2;
 		scopeArsenal = 2;
-		editorCategory = "Ranger Weapons";
-		editorSubcategory = "Sniper Rifles";
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -148,8 +138,6 @@ class cfgWeapons
 		displayName = "Ranger DDMK18";
 		scope = 2;
 		scopeArsenal = 2;
-		editorCategory = "Ranger Weapons";
-		editorSubcategory = "5.56 Assault Rifles";
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -181,8 +169,6 @@ class cfgWeapons
 		displayName = "Ranger MK12 DPR";
 		scope = 2;
 		scopeArsenal = 2;
-		editorCategory = "Ranger Weapons";
-		editorSubcategory = "DMR Rifles";
 		class LinkedItems
 		{
 			class LinkedItemsMuzzle
@@ -214,8 +200,6 @@ class cfgWeapons
 		displayName = "Ranger M110 DMR";
 		scope = 2;
 		scopeArsenal = 2;
-		editorCategory = "Ranger Weapons";
-		editorSubcategory = "DMR Rifles";
 		class LinkedItems
 		{
 			class LinkedItemsMuzzle
