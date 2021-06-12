@@ -126,4 +126,34 @@ class cfgWeapons
 			};
 		};
 	};
+	class Ranger_DDMK18 : flb_M4_DDMK18_B5_Paint2_grip2
+	{
+		author = "Team Valhalla";
+		baseWeapon = "flb_M4_DDMK18_B5_Paint2_grip2";
+		displayName = "Ranger DDMK18";
+		scope = 2;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "SMA_eotechG33_3XUP";
+			};
+			class LinkedItemsAcc
+			{
+				slot = "PointerSlot";
+				item = "flb_NGAL_M300tt_Blk_ComboLaser";
+			};
+			class LinkedItemsBipod
+			{
+				slot = "GripodSlot";
+				item = "flb_FSG2_blk";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "FLB_556_cordurawrap_tan_V2";
+			};
+		};
+	};
 };
