@@ -13,6 +13,7 @@ class cfgWeapons
 	class flb_mk12_spr_blk; //Mk12 DMR Source
 	class rhs_weap_M320; // M320 Source
 	class CUP_hgun_M17_Black; //M17 Source
+	class rhs_weap_M107_d; //M107 Source
 
 	//custom weapon configs
 	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX_grip4
@@ -108,6 +109,14 @@ class cfgWeapons
 				slot = "GripodSlot";
 				item = "flb_BCM_KAG_TOB_Blk";
 			};
+		};
+	};
+	class Ranger_M107 : rhs_weap_M107_d
+	{
+		class LinkedItemsOptic
+		{
+			slot = "CowsSlot";
+			item = "rhsusf_acc_premier_mrds";
 		};
 	};
 };

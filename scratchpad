@@ -236,3 +236,56 @@ comment "Set identity";
 
 
 [["Ranger_MK16","SMA_supp1TB_556","FLB_peq_m600_LOK_ComboLaser_blk","SMA_eotech552_3XDOWN",[],[],""],[],["Ranger_M17","","flb_acc_X300u_blk","",[],[],""],["g3roll_mc_uniform",[["ACE_quikclot",7],["ACE_tourniquet",2],["ACE_packingBandage",5],["ACE_elasticBandage",3],["ACE_EarPlugs",2],["30Rnd_65x39_caseless_mag",3,30]]],["flb_CryeAVS_Assault01_GEAR_A_300_MCM",[["30Rnd_65x39_caseless_mag",7,30],["16Rnd_9x21_Mag",3,17],["SmokeShell",1,1],["SmokeShellGreen",1,1],["Chemlight_green",2,1],["HandGrenade",2,1]]],[],"flb_opscover_peltor_C_03","flb_diving_mask",[],["ItemMap","","","ItemCompass","ItemWatch","FLB_PVS31_Tan_02"]]
+
+
+comment "Exported from Arsenal by MAJ Cullen";
+
+comment "[!] UNIT MUST BE LOCAL [!]";
+if (!local this) exitWith {};
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add weapons";
+this addWeapon "rhs_weap_M107_d";
+this addPrimaryWeaponItem "rhsusf_acc_premier_mrds";
+this addPrimaryWeaponItem "rhsusf_mag_10Rnd_STD_50BMG_M33";
+this addWeapon "CUP_hgun_Duty_M3X";
+this addHandgunItem "CUP_acc_CZ_M3X";
+this addHandgunItem "16Rnd_9x21_Mag";
+
+comment "Add containers";
+this forceAddUniform "CUP_U_B_CZ_WDL_Kneepads_Gloves";
+this addVest "CUP_V_CZ_vest05";
+this addBackpack "CUP_B_ACRScout_m95_M4";
+
+comment "Add items to containers";
+this addItemToUniform "ACE_fieldDressing";
+this addItemToUniform "ACE_packingBandage";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+for "_i" from 1 to 2 do {this addItemToVest "16Rnd_9x21_Mag";};
+for "_i" from 1 to 4 do {this addItemToVest "CUP_HandGrenade_M67";};
+for "_i" from 1 to 2 do {this addItemToVest "rhsusf_mag_10Rnd_STD_50BMG_M33";};
+for "_i" from 1 to 4 do {this addItemToBackpack "CUP_30Rnd_556x45_Stanag";};
+this addItemToBackpack "SmokeShell";
+this addItemToBackpack "SmokeShellRed";
+this addHeadgear "CUP_H_CZ_Helmet03";
+this addGoggles "CUP_G_ESS_BLK";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+this linkItem "CUP_NVG_PVS7_Hide";
+
+comment "Set identity";
+[this,"Default","ace_novoice"] call BIS_fnc_setIdentity;
