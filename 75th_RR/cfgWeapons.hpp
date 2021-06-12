@@ -14,8 +14,38 @@ class cfgWeapons
 	class CUP_hgun_M17_Black; //M17 Source
 	class rhs_weap_M107_d; //M107 Source
 	class flb_M4_DDMK18_B5_Paint1_grip2; //MK18 Source
+	class flb_mk48_lmt_camo1; //mk48 source
 
 	//custom weapon configs
+
+	class Ranger_MK48 : flb_mk48_lmt_camo1
+	{
+		author = "Team Valhalla";
+		baseWeapon = "Ranger_MK48";
+		displayName = "Ranger Mk48 MMG";
+		scope = 2;
+		scopeArsenal = 2;
+		recoil = "rhs_recoil_m240";
+		class LinkedItems
+		{
+			class LinkedItemsAcc
+			{
+				slot = "PointerSlot";
+				item = "rhsusf_acc_anpeq15side";
+			};
+			class LinkedItemsBipod
+			{
+				slot = "UnderBarrelSlot";
+				item = "rhsusf_acc_harris_bipod";
+			};
+			class LinkedItemsBipod
+			{
+				slot = "CowsSlot";
+				item = "rhsusf_acc_ACOG_MDO";
+			};
+		};
+
+	};
 	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX_grip4
 	{
 		author="Team Valhalla";
