@@ -9,7 +9,7 @@ class cfgWeapons
 	class rhs_weap_m240B; //M240B MMG Source
 	class SMA_Mk17; //MK17 Source
 	class FLB_sr25_FDE; //M110 DMR Source
-	class flb_mk12_spr_blk; //Mk12 DMR Source
+	class flb_Mk12_SPR_blk_grip; //Mk12 DMR Source
 	class rhs_weap_M320; // M320 Source
 	class CUP_hgun_M17_Black; //M17 Source
 	class rhs_weap_M107_d; //M107 Source
