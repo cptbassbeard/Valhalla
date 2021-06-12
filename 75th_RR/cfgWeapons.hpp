@@ -4,7 +4,6 @@ class cfgWeapons
 	class flb_M4A1_URGI_B5_13_MIX_grip4; //M4 Block III Source
 	class flb_Glock19_WAR_blktan; // Glock 19 Source
 	class SMA_Mk16QCB; // Mk16 Source
-	class flb_M4_DDMK18_B5_Paint1_grip2; //MK18 Source
 	class rhs_weap_m249_light_S_vfg2; //m249 lMG Source
 	class sma_minimi_mk3_762tsb; //MK48 MMG Source
 	class rhs_weap_m240B; //M240B MMG Source
@@ -14,6 +13,7 @@ class cfgWeapons
 	class rhs_weap_M320; // M320 Source
 	class CUP_hgun_M17_Black; //M17 Source
 	class rhs_weap_M107_d; //M107 Source
+	class flb_M4_DDMK18_B5_Paint1_grip2; //MK18 Source
 
 	//custom weapon configs
 	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX_grip4
@@ -126,10 +126,10 @@ class cfgWeapons
 			};
 		};
 	};
-	class Ranger_DDMK18 : flb_M4_DDMK18_B5_Paint2_grip2
+	class Ranger_DDMK18 : flb_M4_DDMK18_B5_Paint1_grip2
 	{
 		author = "Team Valhalla";
-		baseWeapon = "flb_M4_DDMK18_B5_Paint2_grip2";
+		baseWeapon = "flb_M4_DDMK18_B5_Paint1_grip2";
 		displayName = "Ranger DDMK18";
 		scope = 2;
 		class LinkedItems
