@@ -117,10 +117,13 @@ class cfgWeapons
 		baseWeapon = "rhs_weap_M107_d";
 		displayName = "Ranger M107 Light .50BMG";
 		scope = 2;
-		class LinkedItemsOptic
+		class LinkedItems
 		{
-			slot="CowsSlot";
-			item="rhsusf_acc_premier_anpvs27";
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="rhsusf_acc_premier_anpvs27";
+			};
 		};
 	};
 };
