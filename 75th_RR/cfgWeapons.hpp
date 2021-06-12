@@ -19,7 +19,7 @@ class cfgWeapons
 	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX_grip4
 	{
 		author="Team Valhalla";
-		baseWeapon="flb_M4A1_URGI_B5_13_MIX_grip4";
+		baseWeapon="Ranger_M4_BLK3";
 		displayName= "Ranger M4A1 Block 3";
 		scope = 2;
 		scopeArsenal = 2;
@@ -50,7 +50,7 @@ class cfgWeapons
 	class Ranger_Glock19: flb_Glock19_WAR_blktan
 	{
 		author="Team Valhalla";
-		baseWeapon="flb_Glock19_WAR_blktan";
+		baseWeapon="Ranger_Glock19";
 		displayName= "Ranger Spec Glock 19";
 		scope = 2;
 		scopeArsenal = 2;
@@ -71,7 +71,7 @@ class cfgWeapons
 	class Ranger_M17: CUP_hgun_M17_Black
 	{
 		author="Team Valhalla";
-		baseWeapon="CUP_hgun_M17_Black";
+		baseWeapon="Ranger_M17";
 		displayName= "Ranger Spec M17";
 		scope = 2;
 		scopeArsenal = 2;
@@ -87,7 +87,7 @@ class cfgWeapons
 	class Ranger_MK16: SMA_Mk16QCB
 	{
 		author="Team Valhalla";
-		baseWeapon="SMA_Mk16QCB";
+		baseWeapon="Ranger_MK16";
 		displayName= "Ranger MK16 CQB";
 		scope = 2;
 		scopeArsenal = 2;
@@ -118,7 +118,7 @@ class cfgWeapons
 	class Ranger_M107 : rhs_weap_M107_d
 	{
 		author = "Team Valhalla";
-		baseWeapon = "rhs_weap_M107_d";
+		baseWeapon = "Ranger_M107";
 		displayName = "Ranger M107 Light .50BMG";
 		scope = 2;
 		scopeArsenal = 2;
@@ -134,7 +134,7 @@ class cfgWeapons
 	class Ranger_DDMK18 : flb_M4_DDMK18_B5_Paint1_grip2
 	{
 		author = "Team Valhalla";
-		baseWeapon = "flb_M4_DDMK18_B5_Paint1_grip2";
+		baseWeapon = "Ranger_DDMK18";
 		displayName = "Ranger DDMK18";
 		scope = 2;
 		scopeArsenal = 2;
@@ -165,7 +165,7 @@ class cfgWeapons
 	class Ranger_Mk12 : flb_Mk12_SPR_blk
 	{
 		author = "Team Valhalla";
-		baseWeapon = "flb_Mk12_SPR_blk";
+		baseWeapon = "Ranger_Mk12";
 		displayName = "Ranger MK12 DPR";
 		scope = 2;
 		scopeArsenal = 2;
@@ -196,7 +196,7 @@ class cfgWeapons
 	class Ranger_M110 : FLB_SR25_fde
 	{
 		author = "Team Valhalla";
-		baseWeapon = "FLB_SR25_fde";
+		baseWeapon = "Ranger_M110";
 		displayName = "Ranger M110 DMR";
 		scope = 2;
 		scopeArsenal = 2;
