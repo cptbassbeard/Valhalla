@@ -239,6 +239,7 @@ comment "Set identity";
 
 
 
+
 comment "Exported from Arsenal by MAJ Cullen";
 
 comment "[!] UNIT MUST BE LOCAL [!]";
@@ -255,31 +256,38 @@ removeHeadgear this;
 removeGoggles this;
 
 comment "Add weapons";
-this addWeapon "rhs_weap_M107_d";
-this addPrimaryWeaponItem "rhsusf_acc_M8541_mrds";
-this addPrimaryWeaponItem "rhsusf_mag_10Rnd_STD_50BMG_M33";
+this addWeapon "Ranger_M107";
+this addPrimaryWeaponItem "rhsusf_acc_M8541";
+this addWeapon "CUP_hgun_M17_Black";
+this addHandgunItem "flb_acc_X300u_blk";
 
 comment "Add containers";
-this forceAddUniform "CUP_U_O_SLA_Urban";
-this addVest "CUP_V_O_SLA_6B3_1_URB";
-this addBackpack "CUP_B_TK_CivPack_WDL_Ammo";
+this forceAddUniform "g3roll_mc_uniform";
+this addVest "flb_CryeAVS_Assault01_GEAR_A_300_MCM";
 
 comment "Add items to containers";
-for "_i" from 1 to 2 do {this addItemToVest "CUP_HandGrenade_RGD5";};
-for "_i" from 1 to 2 do {this addItemToVest "rhsusf_mag_10Rnd_STD_50BMG_M33";};
-for "_i" from 1 to 2 do {this addItemToBackpack "CUP_20Rnd_762x51_FNFAL_M";};
-for "_i" from 1 to 2 do {this addItemToBackpack "CUP_10Rnd_762x54_SVD_M";};
-for "_i" from 1 to 2 do {this addItemToBackpack "CUP_1Rnd_HEDP_M203";};
-for "_i" from 1 to 2 do {this addItemToBackpack "CUP_HandGrenade_RGD5";};
-this addItemToBackpack "rhsusf_mag_10Rnd_STD_50BMG_M33";
-this addHeadgear "CUP_H_SLA_Helmet_URB";
+for "_i" from 1 to 7 do {this addItemToUniform "ACE_quikclot";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 5 do {this addItemToUniform "ACE_packingBandage";};
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_elasticBandage";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_EarPlugs";};
+for "_i" from 1 to 3 do {this addItemToUniform "30Rnd_65x39_caseless_mag";};
+for "_i" from 1 to 7 do {this addItemToVest "30Rnd_65x39_caseless_mag";};
+for "_i" from 1 to 3 do {this addItemToVest "16Rnd_9x21_Mag";};
+this addItemToVest "SmokeShell";
+this addItemToVest "SmokeShellGreen";
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+this addHeadgear "flb_opscover_peltor_C_03";
+this addGoggles "G_Diving";
 
 comment "Add items";
 this linkItem "ItemMap";
 this linkItem "ItemCompass";
 this linkItem "ItemWatch";
-this linkItem "ItemRadio";
+this linkItem "FLB_PVS31_Tan_02";
 
 comment "Set identity";
-[this,"Default","ace_novoice"] call BIS_fnc_setIdentity;
+[this,"Default",""] call BIS_fnc_setIdentity;
+
 

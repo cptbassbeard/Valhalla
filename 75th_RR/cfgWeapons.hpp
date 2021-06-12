@@ -113,10 +113,14 @@ class cfgWeapons
 	};
 	class Ranger_M107 : rhs_weap_M107_d
 	{
+		author = "Team Valhalla";
+		baseWeapon = "rhs_weap_M107_d";
+		displayName = "Ranger M107 Light .50BMG";
+		scope = 2;
 		class LinkedItemsOptic
 		{
 			slot = "CowsSlot";
-			item = "rhsusf_acc_M8541_mrds";
+			item = "rhsusf_acc_M8541";
 		};
 	};
 };
