@@ -203,7 +203,7 @@ class cfgWeapons
 			};
 			class LinkedItemsBipod
 			{
-				slot = "GripodSlot";
+				slot = "UnderBarrelSlot";
 				item = "rhsusf_acc_harris_bipod";
 			};
 		};
