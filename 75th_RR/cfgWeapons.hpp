@@ -156,4 +156,30 @@ class cfgWeapons
 			};
 		};
 	};
+	class Ranger_Mk12 : flb_Mk12_SPR_blk_grip
+	{
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				slot="MuzzleSlot";
+				item="FLB_SPR_cordurawrap_blk2";
+			};
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="FLB_VUDU_GeisseleM_RMR45t_1_6_BLK";
+			};
+			class LinkedItemBipod
+			{
+				slot="GripodSlot";
+				item="rhsusf_acc_harris_bipod";
+			};
+			class LinkedItemsAcc
+			{
+				slot="PointerSlot";
+				item="FLB_peq600_GEIS_B_ComboLaser_blk";
+			};
+		};
+	};
 };
