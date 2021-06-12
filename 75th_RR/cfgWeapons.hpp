@@ -182,4 +182,30 @@ class cfgWeapons
 			};
 		};
 	};
+	class Ranger_M110 : FLB_SR25_fde
+	{
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "FLB_762_cordurawrap_fde2";
+			};
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "FLB_VUDU_GeisseleM_RMR45t_1_6_BLK";
+			};
+			class LinkedItemsAcc
+			{
+				slot = "PointerSlot";
+				item = "rhsusf_acc_anpeq15side";
+			};
+			class LinkedItemsBipod
+			{
+				slot = "GripodSlot";
+				item = "rhsusf_acc_harris_bipod";
+			};
+		};
+	};
 };
