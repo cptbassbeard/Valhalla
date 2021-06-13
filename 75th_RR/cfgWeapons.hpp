@@ -36,9 +36,9 @@ class cfgWeapons
 			class LinkedItemsBipod
 			{
 				slot = "UnderBarrelSlot";
-				item = "rhsusf_acc_harris_bipod";
+				item = "rhsusf_acc_grip1";
 			};
-			class LinkedItemsBipod
+			class LinkedItemsOptic
 			{
 				slot = "CowsSlot";
 				item = "rhsusf_acc_ACOG_MDO";
