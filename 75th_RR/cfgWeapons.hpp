@@ -58,16 +58,16 @@ class cfgWeapons
 			class LinkedItemsAcc
 			{
 				slot = "PointerSlot";
-				item = "FLB_dba1_top_blk";
+				item = "FLB_dbal_top_blk";
 			};
 			class LinkedItemsOptic
 			{
-				slot = "CowsSlot";
+				slot = "asdg_OpticRail_SMAAssault";
 				item = "rhsusf_acc_su230a_mrds";
 			};
 			class LinkedItemsBipod
 			{
-				slot = "UnderBarrelSlot";
+				slot = "asdg_UnderSlot_SMAAssault";
 				item = "rhsusf_acc_harris_bipod";
 			};
 			class LinkedItemsMuzzle
