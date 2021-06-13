@@ -46,6 +46,37 @@ class cfgWeapons
 		};
 
 	};
+	class Ranger_MK17 : SMA_Mk17
+	{
+		author = "Team Valhalla";
+		baseWeapon = "Ranger_MK17";
+		displayName = "Ranger MK17 DMR";
+		scope = 2;
+		scopeArsenal = 2;
+		class LinkedItems
+		{
+			class LinkedItemsAcc
+			{
+				slot = "PointerSlot";
+				item = "FLB_dba1_top_blk";
+			};
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "rhsusf_acc_su230a_mrds";
+			};
+			class LinkedItemsBipod
+			{
+				slot = "UnderBarrelSlot";
+				item = "rhsusf_acc_harris_bipod";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "SMA_supp_762";
+			};
+		};
+	};
 	class Ranger_M4_BLK3: flb_M4A1_URGI_B5_13_MIX_grip4
 	{
 		author="Team Valhalla";
