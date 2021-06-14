@@ -4,7 +4,7 @@ class cfgWeapons
 	class flb_M4A1_URGI_B5_13_MIX_grip4; //M4 Block III Source
 	class flb_Glock19_WAR_blktan; // Glock 19 Source
 	class SMA_Mk16QCB; // Mk16 Source
-	class rhs_weap_m249_light_S_vfg2; //m249 lMG Source
+	class rhs_weap_m249_pip_S_para_vfg3; //m249 lMG Source
 	class sma_minimi_mk3_762tsb; //MK48 MMG Source
 	class rhs_weap_m240B; //M240B MMG Source
 	class SMA_Mk17; //MK17 Source
@@ -282,6 +282,37 @@ class cfgWeapons
 			{
 				slot = "UnderBarrelSlot";
 				item = "rhsusf_acc_harris_bipod";
+			};
+		};
+	};
+	class Ranger_SAW : rhs_weap_m249_pip_S_para_vfg3
+	{
+		author = "Team Valhalla";
+		baseWeapon = "Ranger_SAW";
+		displayName = "Ranger MK 46";
+		scope = 2;
+		scopeArsenal = 2;
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "ACE_muzzle_mzls_L";
+			};
+			class LinkedItemsAcc
+			{
+				slot = "PointerSlot";
+				item = "CUP_acc_ANPEQ_15_Flashlight_Black_L";
+			};
+			class LinkedItemsScope
+			{
+				slot = "CowsSlot";
+				item = "SMA_eotechG33_3XDOWN";
+			};
+			class LinkedItemsBipod
+			{
+				slot = "Grippod";
+				item = "rhsusf_acc_grip4_bipod";
 			};
 		};
 	};

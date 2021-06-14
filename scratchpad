@@ -291,3 +291,54 @@ comment "Set identity";
 [this,"Default",""] call BIS_fnc_setIdentity;
 
 
+
+comment "Exported from Arsenal by MAJ Cullen";
+
+comment "[!] UNIT MUST BE LOCAL [!]";
+if (!local this) exitWith {};
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add weapons";
+this addWeapon "rhs_weap_m249_pip_S_para_vfg3";
+this addPrimaryWeaponItem "ACE_muzzle_mzls_L";
+this addPrimaryWeaponItem "CUP_acc_ANPEQ_15_Flashlight_Black_L";
+this addPrimaryWeaponItem "SMA_eotechG33_3XDOWN";
+this addPrimaryWeaponItem "rhsusf_200Rnd_556x45_M855_mixed_soft_pouch_coyote";
+this addPrimaryWeaponItem "rhsusf_acc_grip4_bipod";
+
+comment "Add containers";
+this forceAddUniform "U_BG_Guerilla3_1";
+this addVest "rhssaf_vest_md12_digital_desert";
+
+comment "Add binoculars";
+this addWeapon "Binocular";
+
+comment "Add items to containers";
+this addItemToUniform "ACE_fieldDressing";
+this addItemToUniform "ACE_packingBandage";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACRE_PRC343";
+this addItemToUniform "Chemlight_blue";
+this addItemToVest "HandGrenade";
+this addItemToVest "MiniGrenade";
+this addItemToVest "SmokeShell";
+this addHeadgear "H_Shemag_olive";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadioAcreFlagged";
+
+comment "Set identity";
+[this,"Default","ace_novoice"] call BIS_fnc_setIdentity;
