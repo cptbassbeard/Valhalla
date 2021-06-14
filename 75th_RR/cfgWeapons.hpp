@@ -15,6 +15,7 @@ class cfgWeapons
 	class rhs_weap_M107_d; //M107 Source
 	class flb_M4_DDMK18_B5_Paint1_grip2; //MK18 Source
 	class flb_mk48_lmt_camo1; //mk48 source
+	class rhs_weap_XM2010; //M2010 Base
 
 	//custom weapon configs
 
@@ -311,9 +312,10 @@ class cfgWeapons
 			};
 			class LinkedItemsBipod
 			{
-				slot = "Grippod";
+				slot = "GripodSlot";
 				item = "rhsusf_acc_grip4_bipod";
 			};
 		};
 	};
+	class Ranger_M2010 : 
 };
