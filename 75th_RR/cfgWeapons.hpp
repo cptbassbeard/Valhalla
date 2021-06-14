@@ -317,5 +317,20 @@ class cfgWeapons
 			};
 		};
 	};
-	class Ranger_M2010 : 
+	class Ranger_M2010 : rhs_weap_XM2010
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "FLB_HiPower3_27x56_LWTS_Black";
+			};
+			class LinkedItemsUnder
+			{
+				slot = "UnderBarrelSlot";
+				item = "rhsusf_acc_harris_bipod";
+			};
+		};
+	};
 };
