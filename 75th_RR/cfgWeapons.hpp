@@ -285,10 +285,10 @@ class cfgWeapons
 			};
 		};
 	};
-	class Ranger_SAW : rhs_weap_m249_pip_S_para_vfg3
+	class Ranger_MK46 : rhs_weap_m249_pip_S_para_vfg3
 	{
 		author = "Team Valhalla";
-		baseWeapon = "Ranger_SAW";
+		baseWeapon = "Ranger_MK46";
 		displayName = "Ranger MK 46";
 		scope = 2;
 		scopeArsenal = 2;
