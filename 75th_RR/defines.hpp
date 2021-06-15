@@ -22,7 +22,7 @@
 #define RF_Items CommonItems, mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), ItemAndroid, mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG)
 #define RF_Weapons Ranger_M4_BLK3, Ranger_M17, Throw, Put
 
-#define 75th_Soldier(CLNAME,DN,UNIF,ITMS,LI,WEP,BP) \
+#define RANGER_SOLDIER(CLNAME,DN,UNIF,ITMS,LI,WEP,BP) \
 	class ##UNIF##; \
 	class ##CLNAME##: ##UNIF## \
 	{ \
