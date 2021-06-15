@@ -15,12 +15,12 @@
 #define weap_xx(a,b) class _xx_##a {weapon = a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 #define IFAK mag_7(ACE_quikclot), mag_2(ACE_tourniquet),mag_5(ACE_packingBandage),mag_3(ACE_elasticBandage),(ACE_EarPlugs)
-#define CommonLinked ItemMap, ItemCompass, ItemWatch, ACE_Vector
+#define CommonLinked ItemMap, ItemCompass, ItemWatch
 #define CommonItems ACE_MapTools, IFAK, ACE_microDAGR, ItemcTabHCam
 
 #define RF_Linked CommonLinked, flb_CryeAVS_Assault01_GEAR_A_300_MCM,FLB_PVS31_Tan_02,flb_opscover_peltor_C_03
 #define RF_Items CommonItems, mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), ItemAndroid, mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG)
-#define RF_WEP Ranger_M4_BLK3, Ranger_M17, Throw, Put
+#define RF_WEP Ranger_M4_BLK3, Ranger_M17, Throw, Put, ACE_Vector
 
 #define RANGER_SOLDIER(CLNAME,DN,UNIF,ITMS,LI,WEP,BP) \
 	class ##UNIF##; \
