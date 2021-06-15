@@ -342,3 +342,66 @@ this linkItem "ItemRadioAcreFlagged";
 
 comment "Set identity";
 [this,"Default","ace_novoice"] call BIS_fnc_setIdentity;
+
+
+comment "Exported from Arsenal by MAJ Cullen";
+
+comment "[!] UNIT MUST BE LOCAL [!]";
+if (!local this) exitWith {};
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add weapons";
+this addWeapon "Ranger_M4_BLK3";
+this addPrimaryWeaponItem "FLB_556_cordurawrap_tan_V2";
+this addPrimaryWeaponItem "flb_NGAL_M300_Blk_ComboLaser_02";
+this addPrimaryWeaponItem "SMA_eotechG33_3XUP";
+this addPrimaryWeaponItem "rhs_mag_30Rnd_556x45_Mk318_PMAG";
+this addPrimaryWeaponItem "flb_BCM_KAG_TOB_Blk";
+this addWeapon "Ranger_Glock19";
+this addHandgunItem "flb_acc_X300u_blk";
+this addHandgunItem "flb_Docter_RDS_blk";
+
+comment "Add containers";
+this forceAddUniform "g3roll_mc_uniform";
+this addVest "flb_CryeAVS_Assault01_GEAR_A_300_MCM";
+this addBackpack "flb_mappack_Standard_mc";
+
+comment "Add binoculars";
+this addWeapon "ACE_Vector";
+
+comment "Add items to containers";
+this addItemToUniform "ACE_MapTools";
+for "_i" from 1 to 7 do {this addItemToUniform "ACE_quikclot";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 5 do {this addItemToUniform "ACE_packingBandage";};
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_elasticBandage";};
+this addItemToUniform "ACE_microDAGR";
+this addItemToUniform "ItemcTabHCam";
+this addItemToUniform "ItemAndroid";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_M84";};
+this addItemToUniform "rhs_mag_m67";
+this addItemToUniform "SmokeShell";
+this addItemToVest "rhs_mag_m67";
+this addItemToVest "SmokeShell";
+for "_i" from 1 to 6 do {this addItemToVest "rhs_mag_30Rnd_556x45_Mk318_PMAG";};
+for "_i" from 1 to 3 do {this addItemToVest "rhsusf_mag_17Rnd_9x19_JHP";};
+for "_i" from 1 to 6 do {this addItemToBackpack "flb_Glock_17rnd_mag_JHP";};
+this addGoggles "G_Diving";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "FLB_PVS31_Tan_02";
+
+comment "Set identity";
+[this,"Default",""] call BIS_fnc_setIdentity;

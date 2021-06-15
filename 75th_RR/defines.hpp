@@ -21,7 +21,7 @@
 #define RF_Linked CommonLinked, FLB_PVS31_Tan_02
 #define RF_Items CommonItems, ItemAndroid
 #define RF_WEP Ranger_M4_BLK3, Ranger_Glock19, Throw, Put, ACE_Vector
-#define RF_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(rhsusf_mag_17Rnd_9x19_JHP)
+#define RF_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP)
 
 #define RANGER_SOLDIER(CLNAME,DN,UNIF,VEST,HELM,ITMS,LI,WEP,MAG,BP) \
 	class ##UNIF##; \
@@ -36,7 +36,7 @@
 		backpack = ##BP##; \
 		items[] = {##ITMS##}; \
 		respawnItems[] = {##ITMS##}; \
-		linkedItems[] = {##VEST##, ##HELMET##, ##LI##}; \
+		linkedItems[] = {##VEST##, ##HELM##, ##LI##}; \
 		respawnLinkedItems[] = {##VEST##, ##HELM##, ##LI##}; \
 		weapons[] = {##WEP##}; \
 		respawnWeapons[] = {##WEP##}; \
