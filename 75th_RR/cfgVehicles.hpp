@@ -1,24 +1,5 @@
 #include "defines.hpp"
 
-#define 75th_Soldier(CLNAME,DN,UNIF,ITMS,LI,WEP,BP) \
-	class ##UNIF##; \
-	class ##CLNAME##: ##UNIF## \
-	{ \
-		author = "Team Valhalla"; \
-		scope = 2; \
-		side = 1; \
-		scopeCurator = 2; \
-		displayName = ##DN##; \
-		faction = "75th_RR"; \
-		backpack = ##BP##; \
-		items[] = {##ITMS##}; \
-		respawnItems[] = {##ITMS##}; \
-		linkedItems[] = {##LI##}; \
-		respawnLinkedItems[] = {##LI##}; \
-		weapons[] = {##WEP##}; \
-		respawnWeapons[] = {##WEP##}; \
-	};
-
 class cfgVehicles
 {
 
