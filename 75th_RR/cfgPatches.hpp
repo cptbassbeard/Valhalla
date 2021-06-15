@@ -7,7 +7,7 @@ class CfgPatches
 		addonRootClass = "Valhalla";
 		units[]=
 		{
-			"75thRR_Soldier_base_f"
+			"75thRR_RF_MC"
 		};
 		weapons[]=
 		{
