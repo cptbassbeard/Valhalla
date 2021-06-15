@@ -11,8 +11,8 @@
 		displayName = ##DN##; \
 		faction = "75th_RR"; \
 		backpack = ##BP##; \
-		items[] = ##ITMS##; \
-		respawnItems[] = ##ITMS##; \
+		items[] = {##ITMS##}; \
+		respawnItems[] = {##ITMS##}; \
 		linkedItems[] = {##LI##}; \
 		respawnLinkedItems[] = {##LI##}; \
 		weapons[] = {##WEP##}; \
