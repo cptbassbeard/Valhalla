@@ -1,0 +1,407 @@
+
+comment "Exported from Arsenal by MAJ Cullen";
+
+comment "[!] UNIT MUST BE LOCAL [!]";
+if (!local this) exitWith {};
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add weapons";
+this addWeapon "CUP_hgun_M17_Black";
+this addHandgunItem "flb_acc_X300u_blk";
+this addHandgunItem "CUP_21Rnd_9x19_M17_Black";
+
+comment "Add containers";
+this forceAddUniform "CUP_U_C_Rocker_02";
+this addVest "6094_HEAVY_od";
+
+comment "Add items to containers";
+for "_i" from 1 to 3 do {this addItemToVest "CUP_21Rnd_9x19_M17_Black";};
+
+comment "Add items";
+this linkItem "ItemWatch";
+this linkItem "ItemRadioAcreFlagged";
+
+comment "Set identity";
+[this,"Default","ace_novoice"] call BIS_fnc_setIdentity;
+
+
+
+
+class cfgWeapons {
+class arifle_MX_SW_F;
+
+class arifle_MX_SW_ACO_AToW: arifle_MX_SW_F {
+
+class LinkedItems {
+
+class LinkedItemsOptic {
+
+item = "optic_ACO";
+
+slot = "CowsSlot";
+
+};
+
+class LinkedItemsAcc {
+
+item = "acc_pointer_IR";
+
+slot = "PointerSlot";
+
+};
+
+};
+
+};
+
+};
+
+
+comment "Exported from Arsenal by MAJ Cullen";
+
+comment "[!] UNIT MUST BE LOCAL [!]";
+if (!local this) exitWith {};
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add weapons";
+this addWeapon "flb_M4A1_URGI_B5_13_MIX";
+this addPrimaryWeaponItem "FLB_556_cordurawrap_tan_V2";
+this addPrimaryWeaponItem "flb_NGAL_M300_Blk_ComboLaser_02";
+this addPrimaryWeaponItem "flb_Aimpoint_CompM5_blk";
+this addPrimaryWeaponItem "flb_BCM_KAG_TOB_Blk";
+
+comment "Add containers";
+this forceAddUniform "g3roll_mc_uniform";
+this addVest "flb_CryeAVS_Assault01_GEAR_A_300_MCM";
+
+comment "Add items to containers";
+for "_i" from 1 to 7 do {this addItemToUniform "ACE_quikclot";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 5 do {this addItemToUniform "ACE_packingBandage";};
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_elasticBandage";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_EarPlugs";};
+for "_i" from 1 to 3 do {this addItemToUniform "30Rnd_65x39_caseless_mag";};
+for "_i" from 1 to 7 do {this addItemToVest "30Rnd_65x39_caseless_mag";};
+for "_i" from 1 to 3 do {this addItemToVest "16Rnd_9x21_Mag";};
+this addItemToVest "SmokeShell";
+this addItemToVest "SmokeShellGreen";
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+this addHeadgear "flb_opscover_peltor_C_03";
+this addGoggles "G_B_Diving";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "FLB_PVS31_Tan_02";
+
+comment "Set identity";
+[this,"Default",""] call BIS_fnc_setIdentity;
+
+
+
+comment "Exported from Arsenal by MAJ Cullen";
+
+comment "[!] UNIT MUST BE LOCAL [!]";
+if (!local this) exitWith {};
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add weapons";
+this addWeapon "rhs_weap_m4a1_blockII_grip_bk";
+this addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
+this addPrimaryWeaponItem "SMA_ELCAN_SPECTER_RDS";
+this addPrimaryWeaponItem "rhs_mag_30Rnd_556x45_Mk318_Stanag";
+this addPrimaryWeaponItem "rhsusf_acc_grip3";
+this addWeapon "flb_Glock19_WAR_blktan";
+this addHandgunItem "flb_acc_X300u_blk";
+this addHandgunItem "flb_Docter_RDS_blk";
+this addHandgunItem "flb_Glock_17rnd_mag_JHP";
+
+comment "Add containers";
+this forceAddUniform "rhs_uniform_FROG01_d";
+this addVest "6094_SCOUT_od";
+this addBackpack "B_Kitbag_cbr";
+
+comment "Add binoculars";
+this addWeapon "Rangefinder";
+
+comment "Add items to containers";
+this addItemToUniform "ACE_EarPlugs";
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_EntrenchingTool";
+this addItemToVest "flb_Gemtech_Tundra_TAN";
+this addItemToVest "flb_Gemtech_Tundra_BLK";
+for "_i" from 1 to 2 do {this addItemToVest "flb_Glock_17rnd_mag_JHP";};
+for "_i" from 1 to 2 do {this addItemToBackpack "ACE_CableTie";};
+for "_i" from 1 to 15 do {this addItemToBackpack "ACE_quikclot";};
+this addItemToBackpack "ACE_salineIV_250";
+for "_i" from 1 to 2 do {this addItemToBackpack "ACE_tourniquet";};
+this addItemToBackpack "ACE_EarPlugs";
+this addItemToBackpack "ACE_IR_Strobe_Item";
+this addItemToBackpack "rhsusf_acc_nt4_black";
+this addItemToBackpack "acc_flashlight";
+this addItemToBackpack "ACRE_PRC152";
+for "_i" from 1 to 2 do {this addItemToBackpack "ACE_Chemlight_HiOrange";};
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadioAcreFlagged";
+this linkItem "ItemGPS";
+
+comment "Set identity";
+[this,"Kelly","ace_novoice"] call BIS_fnc_setIdentity;
+
+
+
+comment "Exported from Arsenal by MAJ Cullen";
+
+comment "[!] UNIT MUST BE LOCAL [!]";
+if (!local this) exitWith {};
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add weapons";
+this addWeapon "SMA_Mk16QCB";
+this addPrimaryWeaponItem "acc_pointer_IR";
+this addPrimaryWeaponItem "optic_Aco";
+this addPrimaryWeaponItem "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+this addWeapon "hgun_P07_F";
+this addHandgunItem "16Rnd_9x21_Mag";
+
+comment "Add containers";
+this forceAddUniform "tshirt_mc_grunt_uniform";
+this addVest "V_PlateCarrier1_rgr";
+
+comment "Add items to containers";
+this addItemToUniform "ACE_fieldDressing";
+this addItemToUniform "ACE_packingBandage";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+for "_i" from 1 to 3 do {this addItemToUniform "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
+for "_i" from 1 to 2 do {this addItemToVest "16Rnd_9x21_Mag";};
+this addItemToVest "SmokeShell";
+this addItemToVest "SmokeShellGreen";
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+this addHeadgear "H_HelmetB";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+this linkItem "NVGoggles";
+
+comment "Set identity";
+[this,"Default","ace_novoice"] call BIS_fnc_setIdentity;
+
+
+
+[["Ranger_MK16","SMA_supp1TB_556","FLB_peq_m600_LOK_ComboLaser_blk","SMA_eotech552_3XDOWN",[],[],""],[],["Ranger_M17","","flb_acc_X300u_blk","",[],[],""],["g3roll_mc_uniform",[["ACE_quikclot",7],["ACE_tourniquet",2],["ACE_packingBandage",5],["ACE_elasticBandage",3],["ACE_EarPlugs",2],["30Rnd_65x39_caseless_mag",3,30]]],["flb_CryeAVS_Assault01_GEAR_A_300_MCM",[["30Rnd_65x39_caseless_mag",7,30],["16Rnd_9x21_Mag",3,17],["SmokeShell",1,1],["SmokeShellGreen",1,1],["Chemlight_green",2,1],["HandGrenade",2,1]]],[],"flb_opscover_peltor_C_03","flb_diving_mask",[],["ItemMap","","","ItemCompass","ItemWatch","FLB_PVS31_Tan_02"]]
+
+
+
+
+comment "Exported from Arsenal by MAJ Cullen";
+
+comment "[!] UNIT MUST BE LOCAL [!]";
+if (!local this) exitWith {};
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add weapons";
+this addWeapon "Ranger_M107";
+this addPrimaryWeaponItem "rhsusf_acc_M8541";
+this addWeapon "CUP_hgun_M17_Black";
+this addHandgunItem "flb_acc_X300u_blk";
+
+comment "Add containers";
+this forceAddUniform "g3roll_mc_uniform";
+this addVest "flb_CryeAVS_Assault01_GEAR_A_300_MCM";
+
+comment "Add items to containers";
+for "_i" from 1 to 7 do {this addItemToUniform "ACE_quikclot";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 5 do {this addItemToUniform "ACE_packingBandage";};
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_elasticBandage";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_EarPlugs";};
+for "_i" from 1 to 3 do {this addItemToUniform "30Rnd_65x39_caseless_mag";};
+for "_i" from 1 to 7 do {this addItemToVest "30Rnd_65x39_caseless_mag";};
+for "_i" from 1 to 3 do {this addItemToVest "16Rnd_9x21_Mag";};
+this addItemToVest "SmokeShell";
+this addItemToVest "SmokeShellGreen";
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+this addHeadgear "flb_opscover_peltor_C_03";
+this addGoggles "G_Diving";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "FLB_PVS31_Tan_02";
+
+comment "Set identity";
+[this,"Default",""] call BIS_fnc_setIdentity;
+
+
+
+comment "Exported from Arsenal by MAJ Cullen";
+
+comment "[!] UNIT MUST BE LOCAL [!]";
+if (!local this) exitWith {};
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add weapons";
+this addWeapon "rhs_weap_m249_pip_S_para_vfg3";
+this addPrimaryWeaponItem "ACE_muzzle_mzls_L";
+this addPrimaryWeaponItem "CUP_acc_ANPEQ_15_Flashlight_Black_L";
+this addPrimaryWeaponItem "SMA_eotechG33_3XDOWN";
+this addPrimaryWeaponItem "rhsusf_200Rnd_556x45_M855_mixed_soft_pouch_coyote";
+this addPrimaryWeaponItem "rhsusf_acc_grip4_bipod";
+
+comment "Add containers";
+this forceAddUniform "U_BG_Guerilla3_1";
+this addVest "rhssaf_vest_md12_digital_desert";
+
+comment "Add binoculars";
+this addWeapon "Binocular";
+
+comment "Add items to containers";
+this addItemToUniform "ACE_fieldDressing";
+this addItemToUniform "ACE_packingBandage";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACRE_PRC343";
+this addItemToUniform "Chemlight_blue";
+this addItemToVest "HandGrenade";
+this addItemToVest "MiniGrenade";
+this addItemToVest "SmokeShell";
+this addHeadgear "H_Shemag_olive";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadioAcreFlagged";
+
+comment "Set identity";
+[this,"Default","ace_novoice"] call BIS_fnc_setIdentity;
+
+
+comment "Exported from Arsenal by MAJ Cullen";
+
+comment "[!] UNIT MUST BE LOCAL [!]";
+if (!local this) exitWith {};
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add weapons";
+this addWeapon "Ranger_M4_BLK3";
+this addPrimaryWeaponItem "FLB_556_cordurawrap_tan_V2";
+this addPrimaryWeaponItem "flb_NGAL_M300_Blk_ComboLaser_02";
+this addPrimaryWeaponItem "SMA_eotechG33_3XUP";
+this addPrimaryWeaponItem "rhs_mag_30Rnd_556x45_Mk318_PMAG";
+this addPrimaryWeaponItem "flb_BCM_KAG_TOB_Blk";
+this addWeapon "Ranger_Glock19";
+this addHandgunItem "flb_acc_X300u_blk";
+this addHandgunItem "flb_Docter_RDS_blk";
+
+comment "Add containers";
+this forceAddUniform "g3roll_mc_uniform";
+this addVest "flb_CryeAVS_Assault01_GEAR_A_300_MCM";
+this addBackpack "flb_mappack_Standard_mc";
+
+comment "Add binoculars";
+this addWeapon "ACE_Vector";
+
+comment "Add items to containers";
+this addItemToUniform "ACE_MapTools";
+for "_i" from 1 to 7 do {this addItemToUniform "ACE_quikclot";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 5 do {this addItemToUniform "ACE_packingBandage";};
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_elasticBandage";};
+this addItemToUniform "ACE_microDAGR";
+this addItemToUniform "ItemcTabHCam";
+this addItemToUniform "ItemAndroid";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_M84";};
+this addItemToUniform "rhs_mag_m67";
+this addItemToUniform "SmokeShell";
+this addItemToVest "rhs_mag_m67";
+this addItemToVest "SmokeShell";
+for "_i" from 1 to 6 do {this addItemToVest "rhs_mag_30Rnd_556x45_Mk318_PMAG";};
+for "_i" from 1 to 3 do {this addItemToVest "rhsusf_mag_17Rnd_9x19_JHP";};
+for "_i" from 1 to 6 do {this addItemToBackpack "flb_Glock_17rnd_mag_JHP";};
+this addGoggles "G_Diving";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "FLB_PVS31_Tan_02";
+
+comment "Set identity";
+[this,"Default",""] call BIS_fnc_setIdentity;

@@ -1,4 +1,5 @@
-class cfgWeapons{
+class cfgWeapons
+{
 
 	class UniformItem;
 	class UniformBase;
@@ -11,7 +12,8 @@ class cfgWeapons{
 		displayName = "VKPO MSV GLOVES KNEEPADS";
 		modelSides[] = {0,1,2,3};
 
-		class ItemInfo: UniformItem {
+		class ItemInfo: UniformItem 
+		{
                         uniformModel = "-";
                         uniformClass = "121MSV_Soldier_base_f";
 						displayName = "VKPO MSV Gloves Pads";
