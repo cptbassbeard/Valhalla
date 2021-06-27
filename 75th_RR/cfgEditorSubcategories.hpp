@@ -2,18 +2,18 @@
 	{
 		class MC
 		{
-			displayName = "Ranger (Multicam)"
+			displayName = "Ranger (Multicam)";
 		};
 		class Arctic
 		{
-			displayName = "Ranger (Arctic)"
+			displayName = "Ranger (Arctic)";
 		};
 		class Desert
 		{
-			displayName = "Ranger (Desert)"
+			displayName = "Ranger (Desert)";
 		};
 		class RangerGreen
 		{
-			displayName = "Ranger (Ranger Green)"
+			displayName = "Ranger (Ranger Green)";
 		};
 	};
