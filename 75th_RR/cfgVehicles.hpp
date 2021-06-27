@@ -27,7 +27,7 @@ class cfgVehicles
 		};
 	};
 
-	class Ranger_Medbag_MC:flb_mappack_Medical01_blk
+	class Ranger_Medbag_blk:flb_mappack_Medical01_blk
 	{
 		scope = 2;
 		DisplayName = "Ranger Medical Go-Bag (Black)";
@@ -46,7 +46,7 @@ class cfgVehicles
 		};
 	};
 
-	class Ranger_Medbag_MC:flb_mappack_Medical01_od
+	class Ranger_Medbag_od:flb_mappack_Medical01_od
 	{
 		scope = 2;
 		DisplayName = "Ranger Medical Go-Bag (OD)";
@@ -65,7 +65,7 @@ class cfgVehicles
 		};
 	};
 
-	class Ranger_Medbag_MC:flb_mappack_Medical01_tan
+	class Ranger_Medbag_tan:flb_mappack_Medical01_tan
 	{
 		scope = 2;
 		DisplayName = "Ranger Medical Go-Bag (Tan)";
