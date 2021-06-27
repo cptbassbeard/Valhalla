@@ -11,7 +11,6 @@ class cfgGroups
 			class Infantry
 				{
 					Name = "Infantry";
-					
 				};
 		};		
 	};

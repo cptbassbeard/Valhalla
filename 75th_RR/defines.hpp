@@ -32,7 +32,8 @@
 		side = 1; \
 		scopeCurator = 2; \
 		displayName = ##DN##; \
-		editorSubcategory = "##SUBCAT##"; \
+		faction = 75th_RR; \
+		editorSubcategory = ##SUBCAT##; \
 		backpack = ##BP##; \
 		items[] = {##ITMS##}; \
 		respawnItems[] = {##ITMS##}; \
