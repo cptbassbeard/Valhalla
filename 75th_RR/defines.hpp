@@ -23,58 +23,58 @@
 #define CommonItems ACE_MapTools, IFAK, ACE_microDAGR, ItemcTabHCam,ACE_Flashlight_XL50, mag_2(ACE_Cabletie)
 
 //Rifleman Gear
-#define RF_Linked CommonLinked, FLB_PVS31_Tan_02
-#define RF_Items CommonItems, ItemAndroid
+#define RF_Linked CommonLinked,ItemAndroid,FLB_PVS31_Tan_02
+#define RF_Items CommonItems
 #define RF_WEP Ranger_M4_BLK3, Ranger_Glock19, Throw, Put, ACE_Vector
 #define RF_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP)
 
 //Autorifleman Gear
-#define AR_Linked CommonLinked, FLB_PVS31_Tan_02
-#define AR_Items CommonItems, ItemAndroid
+#define AR_Linked CommonLinked,ItemAndroid, FLB_PVS31_Tan_02
+#define AR_Items CommonItems
 #define AR_WEP Ranger_MK46, Ranger_Glock19, Throw, Put, ACE_Vector
 #define AR_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_5(rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote), mag_3(flb_Glock_17rnd_mag_JHP)
 
 //Grenadier Gear
-#define GR_Linked CommonLinked, FLB_PVS31_Tan_02
-#define GR_Items CommonItems, ItemAndroid
+#define GR_Linked CommonLinked,ItemAndroid, FLB_PVS31_Tan_02
+#define GR_Items CommonItems
 #define GR_WEP Ranger_M4_BLK3, rhs_weap_M320, Throw, Put, ACE_Vector
 #define GR_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP),mag_8(rhs_mag_M433_HEDP),mag_4(1Rnd_Smoke_Grenade_shell),mag_2(rhs_mag_m713_Red)
 
 //FTL Gear
-#define FTL_Linked CommonLinked, FLB_PVS31_Tan_02
-#define FTL_Items CommonItems, ItemAndroid
+#define FTL_Linked CommonLinked,ItemAndroid,FLB_PVS31_Tan_02
+#define FTL_Items CommonItems,ACE_SpraypaintGreen, ACE_SpraypaintRed
 #define FTL_WEP Ranger_DDMK18, Ranger_Glock19, Throw, Put, ACE_Vector
-#define FTL_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP), mag_2(SmokeShellGreen), SmokeShellBlue, mag_2(ACE_Chemlight_HiGreen), mag_2(ACE_Chemlight_HiRed), ACE_SpraypaintGreen, ACE_SpraypaintRed
+#define FTL_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP), mag_2(SmokeShellGreen), SmokeShellBlue, mag_2(ACE_Chemlight_HiGreen), mag_2(ACE_Chemlight_HiRed)
 
 //JTAC Gear
-#define JT_Linked CommonLinked, FLB_PVS31_Tan_02
-#define JT_Items CommonItems, itc_land_tablet_rover, itemcTab
+#define JT_Linked CommonLinked,ItemcTab,FLB_PVS31_Tan_02
+#define JT_Items CommonItems, itc_land_tablet_rover
 #define JT_WEP Ranger_DDMK18, Ranger_Glock19, Throw, Put, ACE_Vector
 #define JT_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP), mag_3(SmokeShellGreen)
 
 //SL Gear
-#define SL_Linked CommonLinked, FLB_PVS31_Tan_02
-#define SL_Items CommonItems, ItemcTab
+#define SL_Linked CommonLinked,ItemcTab,FLB_PVS31_Tan_02
+#define SL_Items CommonItems
 #define SL_WEP Ranger_MK16, Ranger_Glock19, Throw, Put, ACE_Vector
 #define SL_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP), mag_2(SmokeShellGreen), SmokeShellBlue, SmokeShellYellow, SmokeShellPurple
 
 //PL Gear
-#define PL_Linked CommonLinked, FLB_PVS31_Tan_02
-#define PL_Items CommonItems, ItemcTab
+#define PL_Linked CommonLinked,ItemcTab,FLB_PVS31_Tan_02
+#define PL_Items CommonItems
 #define PL_WEP Ranger_MK16, Ranger_Glock19, Throw, Put, ACE_Vector
 #define PL_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP), mag_2(SmokeShellGreen), SmokeShellBlue, SmokeShellYellow, SmokeShellPurple
 
 //Platoon Sgt Gear
-#define PSG_Linked CommonLinked, FLB_PVS31_Tan_02
-#define PSG_Items CommonItems, ItemcTab
+#define PSG_Linked CommonLinked,ItemcTab,FLB_PVS31_Tan_02
+#define PSG_Items CommonItems
 #define PSG_WEP Ranger_MK16, Ranger_Glock19, Throw, Put, ACE_Vector
 #define PSG_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP), mag_2(SmokeShellGreen), SmokeShellBlue, SmokeShellYellow, SmokeShellPurple
 
 //Medic Gear
-#define MED_Linked CommonLinked, FLB_PVS31_Tan_02
-#define MED_Items CommonItems, ItemAndroid
+#define MED_Linked CommonLinked,ItemAndroid,FLB_PVS31_Tan_02
+#define MED_Items CommonItems
 #define MED_WEP Ranger_DDMK18, Ranger_Glock19, Throw, Put, ACE_Vector
-#define MED_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP), mag_2(SmokeShellGreen), SmokeShellBlue, mag_2(ACE_Chemlight_HiGreen), mag_2(ACE_Chemlight_HiRed)
+#define MED_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP), mag_2(SmokeShellGreen), mag_2(SmokeShellPurple)
 
 
 

@@ -2,7 +2,88 @@
 
 class cfgVehicles
 {
-	
+	//Init Call for backpacks
+	class flb_mappack_Medical01_mc;
+	class flb_mappack_Medical01_blk;
+	class flb_mappack_Medical01_OD;
+	class flb_mappack_Medical01_Tan;
+	//Custom Backpacks
+	class Ranger_Medbag_MC:flb_mappack_Medical01_mc
+	{
+		scope = 2;
+		DisplayName = "Ranger Medical Go-Bag (MC)";
+		class TransportItems
+		{
+			item_xx(ACE_elasticBandage, 10);
+			item_xx(ACE_packingBandage, 30);
+			item_xx(ACE_quikclot, 25);
+			item_xx(ACE_epinephrine, 15);
+			item_xx(ACE_morphine, 15);
+			item_xx(ACE_SalineIV, 3);
+			item_xx(ACE_salineIV_500, 6);
+			item_xx(ACE_tourniquet, 12);
+			item_xx(ACE_surgicalKit, 1);
+			item_xx(ACE_Splint, 10);
+		};
+	};
+
+	class Ranger_Medbag_MC:flb_mappack_Medical01_blk
+	{
+		scope = 2;
+		DisplayName = "Ranger Medical Go-Bag (Black)";
+		class TransportItems
+		{
+			item_xx(ACE_elasticBandage, 10);
+			item_xx(ACE_packingBandage, 30);
+			item_xx(ACE_quikclot, 25);
+			item_xx(ACE_epinephrine, 15);
+			item_xx(ACE_morphine, 15);
+			item_xx(ACE_SalineIV, 3);
+			item_xx(ACE_salineIV_500, 6);
+			item_xx(ACE_tourniquet, 12);
+			item_xx(ACE_surgicalKit, 1);
+			item_xx(ACE_Splint, 10);
+		};
+	};
+
+	class Ranger_Medbag_MC:flb_mappack_Medical01_od
+	{
+		scope = 2;
+		DisplayName = "Ranger Medical Go-Bag (OD)";
+		class TransportItems
+		{
+			item_xx(ACE_elasticBandage, 10);
+			item_xx(ACE_packingBandage, 30);
+			item_xx(ACE_quikclot, 25);
+			item_xx(ACE_epinephrine, 15);
+			item_xx(ACE_morphine, 15);
+			item_xx(ACE_SalineIV, 3);
+			item_xx(ACE_salineIV_500, 6);
+			item_xx(ACE_tourniquet, 12);
+			item_xx(ACE_surgicalKit, 1);
+			item_xx(ACE_Splint, 10);
+		};
+	};
+
+	class Ranger_Medbag_MC:flb_mappack_Medical01_tan
+	{
+		scope = 2;
+		DisplayName = "Ranger Medical Go-Bag (Tan)";
+		class TransportItems
+		{
+			item_xx(ACE_elasticBandage, 10);
+			item_xx(ACE_packingBandage, 30);
+			item_xx(ACE_quikclot, 25);
+			item_xx(ACE_epinephrine, 15);
+			item_xx(ACE_morphine, 15);
+			item_xx(ACE_SalineIV, 3);
+			item_xx(ACE_salineIV_500, 6);
+			item_xx(ACE_tourniquet, 12);
+			item_xx(ACE_surgicalKit, 1);
+			item_xx(ACE_Splint, 10);
+		};
+	};
+
 	//init calls for uniform classes
 	class g3roll_mc;
 	class g3roll_mct;
@@ -82,11 +163,11 @@ class cfgVehicles
 	RANGER_SOLDIER(75th_PSG_GRN,"75th Ranger PLT SGT RangerGreen","RangerGreen",g3roll_mct, flb_CryeAVS_JTAC01_GEAR_C_556_RngGrn,FLB_OPSCOREXP_Charlie01_Paint_03,PSG_Items,PSG_Linked,PSG_WEP,PSG_MAG,flb_mappack_Standard_od);
 
 		//Medic Units
-	RANGER_SOLDIER(75th_MED_MC,"75th Ranger Medic MC","MC",g3roll_mc, flb_CryeAVS_JTAC01_GEAR_C_556_MCM,flb_opscover_peltor_C_03,MED_Items,MED_Linked,MED_WEP,MED_MAG,flb_mappack_Standard_mc);
+	RANGER_SOLDIER(75th_MED_MC,"75th Ranger Medic MC","MC",g3roll_mc, flb_CryeAVS_JTAC01_GEAR_C_556_MCM,flb_opscover_peltor_C_03,MED_Items,MED_Linked,MED_WEP,MED_MAG,Ranger_Medbag_MC);
 
-	RANGER_SOLDIER(75th_MED_ARCTIC,"75th Ranger Medic Arctic","Arctic",CUP_I_PMC_WINTER_SNIPER, flb_CryeAVS_JTAC01_GEAR_C_556_blk,FLB_OPSCOREXP_Bravo01_Blk,MED_Items,MED_Linked,MED_WEP,MED_MAG,flb_mappack_Alpine02_BLK);
+	RANGER_SOLDIER(75th_MED_ARCTIC,"75th Ranger Medic Arctic","Arctic",CUP_I_PMC_WINTER_SNIPER, flb_CryeAVS_JTAC01_GEAR_C_556_blk,FLB_OPSCOREXP_Bravo01_Blk,MED_Items,MED_Linked,MED_WEP,MED_MAG,Ranger_Medbag_BLK);
 
-	RANGER_SOLDIER(75th_MED_AOR1,"75th Ranger Medic AOR1","Desert",g3groll_aor1_tan, flb_CryeAVS_JTAC01_GEAR_C_556_AOR1,FLB_OPSCOREXP_Charlie01_TAN_02,MED_Items,MED_Linked,MED_WEP,MED_MAG,flb_mappack_Standard_tan);
+	RANGER_SOLDIER(75th_MED_AOR1,"75th Ranger Medic AOR1","Desert",g3groll_aor1_tan, flb_CryeAVS_JTAC01_GEAR_C_556_AOR1,FLB_OPSCOREXP_Charlie01_TAN_02,MED_Items,MED_Linked,MED_WEP,MED_MAG,Ranger_Medbag_Tan);
 
-	RANGER_SOLDIER(75th_MED_GRN,"75th Ranger Medic RangerGreen","RangerGreen",g3roll_mct, flb_CryeAVS_JTAC01_GEAR_C_556_RngGrn,FLB_OPSCOREXP_Charlie01_Paint_03,MED_Items,MED_Linked,MED_WEP,MED_MAG,flb_mappack_Standard_od);
+	RANGER_SOLDIER(75th_MED_GRN,"75th Ranger Medic RangerGreen","RangerGreen",g3roll_mct, flb_CryeAVS_JTAC01_GEAR_C_556_RngGrn,FLB_OPSCOREXP_Charlie01_Paint_03,MED_Items,MED_Linked,MED_WEP,MED_MAG,Ranger_Medbag_OD);
 };
