@@ -7,7 +7,7 @@ class CfgPatches
 		addonRootClass = "Valhalla";
 		units[]=
 		{
-			"75th_RF_MC", "75th_RF_ARCTIC", "75th_RF_AOR1", "75th_RF_MCT","75th_AR_MC", "75th_AR_ARCTIC", "75th_AR_AOR1", "75th_AR_MCT","75th_GR_MC", "75th_GR_ARCTIC", "75th_GR_AOR1", "75th_GR_MCT","75th_JT_MC", "75th_JT_ARCTIC", "75th_JT_AOR1", "75th_JT_MCT"
+			"75th_RF_MC", "75th_RF_ARCTIC", "75th_RF_AOR1", "75th_RF_GRN","75th_AR_MC", "75th_AR_ARCTIC", "75th_AR_AOR1", "75th_AR_GRN","75th_GR_MC", "75th_GR_ARCTIC", "75th_GR_AOR1", "75th_GR_GRN","75th_FTL_MC", "75th_FTL_ARCTIC", "75th_FTL_AOR1", "75th_FTL_GRN", "75th_JT_MC", "75th_JT_ARCTIC", "75th_JT_AOR1", "75th_JT_GRN", "75th_SL_MC", "75th_SL_ARCTIC", "75th_SL_AOR1", "75th_SL_GRN", "75th_PL_MC", "75th_PL_ARCTIC", "75th_PL_AOR1", "75th_PL_GRN", "75th_PSG_MC", "75th_PSG_ARCTIC", "75th_PSG_AOR1", "75th_PSG_GRN", "75th_MED_MC", "75th_MED_ARCTIC", "75th_MED_AOR1", "75th_MED_GRN"
 		};
 		weapons[]=
 		{
