@@ -2,25 +2,6 @@
 
 class cfgVehicles
 {
-	class CfgEditorSubcategories
-	{
-		class MC
-		{
-			displayName = "Ranger (Multicam)"
-		};
-		class Arctic
-		{
-			displayName = "Ranger (Arctic)"
-		};
-		class Desert
-		{
-			displayName = "Ranger (Desert)"
-		};
-		class RangerGreen
-		{
-			displayName = "Ranger (Ranger Green)"
-		};
-	}
 
 	RANGER_SOLDIER(75th_RF_MC,"75th Ranger Rifleman MC","MC",g3roll_mc, flb_CryeAVS_Assault01_GEAR_A_300_MCM,flb_opscover_peltor_C_03,RF_Items,RF_Linked,RF_WEP,RF_MAG,flb_mappack_Standard_mc);
 
