@@ -23,7 +23,7 @@
 #define RF_WEP Ranger_M4_BLK3, Ranger_Glock19, Throw, Put, ACE_Vector
 #define RF_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP)
 
-#define RANGER_SOLDIER(CLNAME,DN,FAC,UNIF,VEST,HELM,ITMS,LI,WEP,MAG,BP) \
+#define RANGER_SOLDIER(CLNAME,DN,SUBCAT,UNIF,VEST,HELM,ITMS,LI,WEP,MAG,BP) \
 	class ##UNIF##; \
 	class ##CLNAME##: ##UNIF## \
 	{ \
@@ -32,7 +32,7 @@
 		side = 1; \
 		scopeCurator = 2; \
 		displayName = ##DN##; \
-		faction = "##FAC##"; \
+		editorSubcategory = "##SUBCAT##"; \
 		backpack = ##BP##; \
 		items[] = {##ITMS##}; \
 		respawnItems[] = {##ITMS##}; \
