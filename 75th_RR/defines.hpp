@@ -42,7 +42,7 @@
 
 //JTAC Gear
 #define JT_Linked CommonLinked, FLB_PVS31_Tan_02
-#define JT_Items CommonItems, Laserdesignator, itc_land_tablet_rover, itemcTab
+#define JT_Items CommonItems, itc_land_tablet_rover, itemcTab
 #define JT_WEP Ranger_M4_BLK3, Ranger_Glock19, Throw, Put, ACE_Vector, Laserdesignator
 #define JT_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP), Laserbatteries
 
