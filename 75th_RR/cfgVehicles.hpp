@@ -7,7 +7,62 @@ class cfgVehicles
 	class flb_mappack_Medical01_blk;
 	class flb_mappack_Medical01_OD;
 	class flb_mappack_Medical01_Tan;
+	class flb_511standard01_SL_MCM;
+	class flb_511standard01_SL_TAN;
+	class flb_511standard01_SL_RGR;
+	class flb_511alpine01_SL_BLK;
 	//Custom Backpacks
+
+	//Assistant MG Bag
+	class Ranger_AMG_BAG_MC: flb_511standard01_SL_MCM
+	{
+		scope = 2;
+		DisplayName = "Ranger Assistant MG Bag (MC)";
+		class TransportItems
+		{
+			item_xx(ACE_EntrenchingTool, 1);
+			item_xx(150Rnd_762x51_box_tracer, 3);
+			item_xx(ACE_Sandbag_Empty, 20);
+		};
+	};
+
+	class Ranger_AMG_BAG_AOR1: flb_511standard01_SL_TAN
+	{
+		scope = 2;
+		DisplayName = "Ranger Assistant MG Bag (AOR1)";
+		class TransportItems
+		{
+			item_xx(ACE_EntrenchingTool, 1);
+			item_xx(150Rnd_762x51_box_tracer, 3);
+			item_xx(ACE_Sandbag_Empty, 20);
+		};
+	};
+
+	class Ranger_AMG_BAG_RGR: flb_511standard01_SL_RGR
+	{
+		scope = 2;
+		DisplayName = "Ranger Assistant MG Bag (RangerGreen)";
+		class TransportItems
+		{
+			item_xx(ACE_EntrenchingTool, 1);
+			item_xx(150Rnd_762x51_box_tracer, 3);
+			item_xx(ACE_Sandbag_Empty, 20);
+		};
+	};
+
+	class Ranger_AMG_BAG_BLK: flb_511Alpine01_SL_BLK
+	{
+		scope = 2;
+		DisplayName = "Ranger Assistant MG Bag (Arctic)";
+		class TransportItems
+		{
+			item_xx(ACE_EntrenchingTool, 1);
+			item_xx(150Rnd_762x51_box_tracer, 3);
+			item_xx(ACE_Sandbag_Empty, 20);
+		};
+	};
+
+	//Medic Bag
 	class Ranger_Medbag_MC:flb_mappack_Medical01_mc
 	{
 		scope = 2;
@@ -46,10 +101,10 @@ class cfgVehicles
 		};
 	};
 
-	class Ranger_Medbag_od:flb_mappack_Medical01_od
+	class Ranger_Medbag_RGR:flb_mappack_Medical01_od
 	{
 		scope = 2;
-		DisplayName = "Ranger Medical Go-Bag (OD)";
+		DisplayName = "Ranger Medical Go-Bag (RangerGreen)";
 		class TransportItems
 		{
 			item_xx(ACE_elasticBandage, 10);
@@ -65,10 +120,10 @@ class cfgVehicles
 		};
 	};
 
-	class Ranger_Medbag_tan:flb_mappack_Medical01_tan
+	class Ranger_Medbag_AOR1:flb_mappack_Medical01_tan
 	{
 		scope = 2;
-		DisplayName = "Ranger Medical Go-Bag (Tan)";
+		DisplayName = "Ranger Medical Go-Bag (AOR1)";
 		class TransportItems
 		{
 			item_xx(ACE_elasticBandage, 10);
@@ -170,4 +225,22 @@ class cfgVehicles
 	RANGER_SOLDIER(75th_MED_AOR1,"75th Ranger Medic AOR1","Desert",g3groll_aor1_tan, flb_CryeAVS_JTAC01_GEAR_C_556_AOR1,FLB_OPSCOREXP_Charlie01_TAN_02,MED_Items,MED_Linked,MED_WEP,MED_MAG,Ranger_Medbag_Tan);
 
 	RANGER_SOLDIER(75th_MED_GRN,"75th Ranger Medic RangerGreen","RangerGreen",g3roll_mct, flb_CryeAVS_JTAC01_GEAR_C_556_RngGrn,FLB_OPSCOREXP_Charlie01_Paint_03,MED_Items,MED_Linked,MED_WEP,MED_MAG,Ranger_Medbag_OD);
+
+	//Machinegunner Units
+	RANGER_SOLDIER(75th_MG_MC,"75th Ranger Machinegunner MC","MC",g3roll_mc,flb_CryeAVS_LMG_GEAR_A_MCM,flb_opscover_peltor_C_03,MG_Items,MG_Linked,MG_WEP,MG_MAG,flb_mappack_Standard_mc);
+
+	RANGER_SOLDIER(75th_MG_ARCTIC,"75th Ranger Machinegunner Arctic","Arctic",CUP_I_PMC_WINTER_SNIPER,flb_CryeAVS_LMG_GEAR_A_MCM,FLB_OPSCOREXP_Bravo01_Blk,MG_Items,MG_Linked,MG_WEP,MG_MAG,flb_mappack_Alpine02_BLK);
+
+	RANGER_SOLDIER(75th_MG_AOR1,"75th Ranger Machinegunner AOR1","Desert",g3groll_aor1_tan,flb_CryeAVS_LMG_GEAR_A_AOR1,FLB_OPSCOREXP_Charlie01_TAN_02,MG_Items,MG_Linked,MG_WEP,MG_MAG,flb_mappack_Standard_tan);
+
+	RANGER_SOLDIER(75th_MG_GRN,"75th Ranger Machinegunner RangerGreen","RangerGreen",g3roll_mct,flb_CryeAVS_LMG_GEAR_A_MCM,FLB_OPSCOREXP_Charlie01_Paint_03,MG_Items,MG_Linked,MG_WEP,MG_MAG,flb_mappack_Standard_od);
+
+	//Assistant Machinegunner Units
+	RANGER_SOLDIER(75th_AMG_MC,"75th Ranger Assistant MG MC","MC",g3roll_mc,flb_CryeAVS_LMG_GEAR_A_MCM,flb_opscover_peltor_C_03,MG_Items,MG_Linked,MG_WEP,MG_MAG,Ranger_AMG_BAG_MC);
+
+	RANGER_SOLDIER(75th_MG_ARCTIC,"75th Ranger Assistant MG Arctic","Arctic",CUP_I_PMC_WINTER_SNIPER,flb_CryeAVS_LMG_GEAR_A_MCM,FLB_OPSCOREXP_Bravo01_Blk,MG_Items,MG_Linked,MG_WEP,MG_MAG,Ranger_AMG_BAG_BLK);
+
+	RANGER_SOLDIER(75th_MG_AOR1,"75th Ranger Assistant MG AOR1","Desert",g3groll_aor1_tan,flb_CryeAVS_LMG_GEAR_A_AOR1,FLB_OPSCOREXP_Charlie01_TAN_02,MG_Items,MG_Linked,MG_WEP,MG_MAG,Ranger_AMG_BAG_AOR1);
+
+	RANGER_SOLDIER(75th_MG_GRN,"75th Ranger Assistant MG RangerGreen","RangerGreen",g3roll_mct,flb_CryeAVS_LMG_GEAR_A_MCM,FLB_OPSCOREXP_Charlie01_Paint_03,MG_Items,MG_Linked,MG_WEP,MG_MAG,Ranger_AMG_BAG_RGR);
 };

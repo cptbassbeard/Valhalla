@@ -25,19 +25,19 @@
 //Rifleman Gear
 #define RF_Linked CommonLinked,ItemAndroid,FLB_PVS31_Tan_02
 #define RF_Items CommonItems
-#define RF_WEP Ranger_M4_BLK3, Ranger_Glock19, Throw, Put, ACE_Vector
+#define RF_WEP Ranger_M4_BLK3, Ranger_Glock19, Throw, Put, ACE_bino_m24
 #define RF_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP)
 
 //Autorifleman Gear
 #define AR_Linked CommonLinked,ItemAndroid, FLB_PVS31_Tan_02
 #define AR_Items CommonItems
-#define AR_WEP Ranger_MK46, Ranger_Glock19, Throw, Put, ACE_Vector
+#define AR_WEP Ranger_MK46, Ranger_Glock19, Throw, Put, ACE_bino_m24
 #define AR_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_5(rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote), mag_3(flb_Glock_17rnd_mag_JHP)
 
 //Grenadier Gear
 #define GR_Linked CommonLinked,ItemAndroid, FLB_PVS31_Tan_02
 #define GR_Items CommonItems
-#define GR_WEP Ranger_M4_BLK3, rhs_weap_M320, Throw, Put, ACE_Vector
+#define GR_WEP Ranger_M4_BLK3, rhs_weap_M320, Throw, Put, ACE_bino_m24
 #define GR_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP),mag_8(rhs_mag_M433_HEDP),mag_4(1Rnd_Smoke_Grenade_shell),mag_2(rhs_mag_m713_Red)
 
 //FTL Gear
@@ -49,7 +49,7 @@
 //JTAC Gear
 #define JT_Linked CommonLinked,ItemcTab,FLB_PVS31_Tan_02
 #define JT_Items CommonItems, itc_land_tablet_rover
-#define JT_WEP Ranger_DDMK18, Ranger_Glock19, Throw, Put, ACE_Vector
+#define JT_WEP Ranger_DDMK18, Ranger_Glock19, Throw, Put, ACE_bino_m24
 #define JT_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP), mag_3(SmokeShellGreen)
 
 //SL Gear
@@ -73,8 +73,20 @@
 //Medic Gear
 #define MED_Linked CommonLinked,ItemAndroid,FLB_PVS31_Tan_02
 #define MED_Items CommonItems
-#define MED_WEP Ranger_DDMK18, Ranger_Glock19, Throw, Put, ACE_Vector
+#define MED_WEP Ranger_DDMK18, Ranger_Glock19, Throw, Put, ACE_bino_m24
 #define MED_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_PMAG), mag_3(flb_Glock_17rnd_mag_JHP), mag_2(SmokeShellGreen), mag_2(SmokeShellPurple)
+
+//Machinegunner Gear
+#define MG_Linked CommonLinked,ItemAndroid, FLB_PVS31_Tan_02
+#define MG_Items CommonItems
+#define MG_WEP Ranger_MK48, Ranger_Glock19, Throw, Put, ACE_bino_m24
+#define MG_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_3(150Rnd_762x51_box_tracer), mag_3(flb_Glock_17rnd_mag_JHP)
+
+//Assistant Machinegunner Gear
+#define AMG_Linked CommonLinked,ItemAndroid, FLB_PVS31_Tan_02
+#define AMG_Items CommonItems
+#define AMG_WEP Ranger_DDMK18, Ranger_Glock19, Throw, Put, ACE_Vector
+#define AMG_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_pmag), mag_3(150Rnd_762x51_box_tracer), mag_3(flb_Glock_17rnd_mag_JHP)
 
 
 
