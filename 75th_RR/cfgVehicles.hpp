@@ -236,11 +236,11 @@ class cfgVehicles
 	RANGER_SOLDIER(75th_MG_GRN,"75th Ranger Machinegunner RangerGreen","RangerGreen",g3roll_mct,flb_CryeAVS_LMG_GEAR_A_MCM,FLB_OPSCOREXP_Charlie01_Paint_03,MG_Items,MG_Linked,MG_WEP,MG_MAG,flb_mappack_Standard_od);
 
 	//Assistant Machinegunner Units
-	RANGER_SOLDIER(75th_AMG_MC,"75th Ranger Assistant MG MC","MC",g3roll_mc,flb_CryeAVS_LMG_GEAR_A_MCM,flb_opscover_peltor_C_03,MG_Items,MG_Linked,MG_WEP,MG_MAG,Ranger_AMG_BAG_MC);
+	RANGER_SOLDIER(75th_AMG_MC,"75th Ranger Assistant MG MC","MC",g3roll_mc,flb_CryeAVS_LMG_GEAR_A_MCM,flb_opscover_peltor_C_03,AMG_Items,AMG_Linked,AMG_WEP,AMG_MAG,Ranger_AMG_BAG_MC);
 
-	RANGER_SOLDIER(75th_AMG_ARCTIC,"75th Ranger Assistant MG Arctic","Arctic",CUP_I_PMC_WINTER_SNIPER,flb_CryeAVS_LMG_GEAR_A_MCM,FLB_OPSCOREXP_Bravo01_Blk,MG_Items,MG_Linked,MG_WEP,MG_MAG,Ranger_AMG_BAG_BLK);
+	RANGER_SOLDIER(75th_AMG_ARCTIC,"75th Ranger Assistant MG Arctic","Arctic",CUP_I_PMC_WINTER_SNIPER,flb_CryeAVS_LMG_GEAR_A_MCM,FLB_OPSCOREXP_Bravo01_Blk,AMG_Items,AMG_Linked,AMG_WEP,AMG_MAG,Ranger_AMG_BAG_BLK);
 
-	RANGER_SOLDIER(75th_AMG_AOR1,"75th Ranger Assistant MG AOR1","Desert",g3groll_aor1_tan,flb_CryeAVS_LMG_GEAR_A_AOR1,FLB_OPSCOREXP_Charlie01_TAN_02,MG_Items,MG_Linked,MG_WEP,MG_MAG,Ranger_AMG_BAG_AOR1);
+	RANGER_SOLDIER(75th_AMG_AOR1,"75th Ranger Assistant MG AOR1","Desert",g3groll_aor1_tan,flb_CryeAVS_LMG_GEAR_A_AOR1,FLB_OPSCOREXP_Charlie01_TAN_02,MG_Items,AMG_Linked,AMG_WEP,AMG_MAG,Ranger_AMG_BAG_AOR1);
 
-	RANGER_SOLDIER(75th_AMG_GRN,"75th Ranger Assistant MG RangerGreen","RangerGreen",g3roll_mct,flb_CryeAVS_LMG_GEAR_A_MCM,FLB_OPSCOREXP_Charlie01_Paint_03,MG_Items,MG_Linked,MG_WEP,MG_MAG,Ranger_AMG_BAG_RGR);
+	RANGER_SOLDIER(75th_AMG_GRN,"75th Ranger Assistant MG RangerGreen","RangerGreen",g3roll_mct,flb_CryeAVS_LMG_GEAR_A_MCM,FLB_OPSCOREXP_Charlie01_Paint_03,AMG_Items,AMG_Linked,AMG_WEP,AMG_MAG,Ranger_AMG_BAG_RGR);
 };
