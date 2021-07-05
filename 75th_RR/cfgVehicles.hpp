@@ -62,6 +62,59 @@ class cfgVehicles
 		};
 	};
 
+		//Medium Anti-Tank Bag
+	class Ranger_MAT_BAG_MC: flb_511standard01_SL_MCM
+	{
+		scope = 2;
+		DisplayName = "Ranger Medium AT Bag (MC)";
+		class TransportItems
+		{
+			item_xx(ACE_EntrenchingTool, 1);
+			item_xx(tf47_m3maaws_HEAT, 2);
+			item_xx(tf47_m3maaws_HEDP, 1);
+			item_xx(ACE_Sandbag_Empty, 20);
+		};
+	};
+
+	class Ranger_MAT_BAG_AOR1: flb_511standard01_SL_TAN
+	{
+		scope = 2;
+		DisplayName = "Ranger Medium AT Bag (AOR1)";
+		class TransportItems
+		{
+			item_xx(ACE_EntrenchingTool, 1);
+			item_xx(tf47_m3maaws_HEAT, 2);
+			item_xx(tf47_m3maaws_HEDP, 1);
+			item_xx(ACE_Sandbag_Empty, 20);
+		};
+	};
+
+	class Ranger_MAT_BAG_RGR: flb_511standard01_SL_RGR
+	{
+		scope = 2;
+		DisplayName = "Ranger Medium AT Bag (RangerGreen)";
+		class TransportItems
+		{
+			item_xx(ACE_EntrenchingTool, 1);
+			item_xx(tf47_m3maaws_HEAT, 2);
+			item_xx(tf47_m3maaws_HEDP, 1);
+			item_xx(ACE_Sandbag_Empty, 20);
+		};
+	};
+
+	class Ranger_MAT_BAG_BLK: flb_511Alpine01_SL_BLK
+	{
+		scope = 2;
+		DisplayName = "Ranger Medium AT Bag (Arctic)";
+		class TransportItems
+		{
+			item_xx(ACE_EntrenchingTool, 1);
+			item_xx(tf47_m3maaws_HEAT, 2);
+			item_xx(tf47_m3maaws_HEDP, 1);
+			item_xx(ACE_Sandbag_Empty, 20);
+		};
+	};
+
 	//Medic Bag
 	class Ranger_Medbag_MC:flb_mappack_Medical01_mc
 	{
@@ -243,4 +296,22 @@ class cfgVehicles
 	RANGER_SOLDIER(75th_AMG_AOR1,"75th Ranger Assistant MG AOR1","Desert",g3groll_aor1_tan,flb_CryeAVS_LMG_GEAR_A_AOR1,FLB_OPSCOREXP_Charlie01_TAN_02,MG_Items,AMG_Linked,AMG_WEP,AMG_MAG,Ranger_AMG_BAG_AOR1);
 
 	RANGER_SOLDIER(75th_AMG_GRN,"75th Ranger Assistant MG RangerGreen","RangerGreen",g3roll_mct,flb_CryeAVS_LMG_GEAR_A_MCM,FLB_OPSCOREXP_Charlie01_Paint_03,AMG_Items,AMG_Linked,AMG_WEP,AMG_MAG,Ranger_AMG_BAG_RGR);
+
+	//Medium Anti-Tank Units
+	RANGER_SOLDIER(75th_MAT_MC,"75th Ranger Medium AT MC","MC",g3roll_mc,flb_CryeAVS_LMG_GEAR_A_MCM,flb_opscover_peltor_C_03,MAT_Items,MAT_Linked,MAT_WEP,MAT_MAG,Ranger_MAT_BAG_MC);
+
+	RANGER_SOLDIER(75th_MAT_ARCTIC,"75th Ranger Medium AT Arctic","Arctic",CUP_I_PMC_WINTER_SNIPER,flb_CryeAVS_LMG_GEAR_A_MCM,FLB_OPSCOREXP_Bravo01_Blk,MAT_Items,MAT_Linked,MAT_WEP,MAT_MAG,Ranger_MAT_BAG_BLK);
+
+	RANGER_SOLDIER(75th_MAT_AOR1,"75th Ranger Medium AT AOR1","Desert",g3groll_aor1_tan,flb_CryeAVS_LMG_GEAR_A_AOR1,FLB_OPSCOREXP_Charlie01_TAN_02,MAT_Items,MAT_Linked,MAT_WEP,MAT_MAG,Ranger_MAT_BAG_AOR1);
+
+	RANGER_SOLDIER(75th_MAT_GRN,"75th Ranger Medium AT RangerGreen","RangerGreen",g3roll_mct,flb_CryeAVS_LMG_GEAR_A_MCM,FLB_OPSCOREXP_Charlie01_Paint_03,MAT_Items,MAT_Linked,MAT_WEP,MAT_MAG,Ranger_MAT_BAG_RGR);
+
+		//Assistant MAT Units
+	RANGER_SOLDIER(75th_AAT_MC,"75th Ranger Assistant MAT MC","MC",g3roll_mc,flb_CryeAVS_LMG_GEAR_A_MCM,flb_opscover_peltor_C_03,AAT_Items,AAT_Linked,AAT_WEP,AAT_MAG,Ranger_MAT_BAG_MC);
+
+	RANGER_SOLDIER(75th_AAT_ARCTIC,"75th Ranger Assistant MAT Arctic","Arctic",CUP_I_PMC_WINTER_SNIPER,flb_CryeAVS_LMG_GEAR_A_MCM,FLB_OPSCOREXP_Bravo01_Blk,AAT_Items,AAT_Linked,AAT_WEP,AAT_MAG,Ranger_MAT_BAG_BLK);
+
+	RANGER_SOLDIER(75th_AAT_AOR1,"75th Ranger Assistant MAT AOR1","Desert",g3groll_aor1_tan,flb_CryeAVS_LMG_GEAR_A_AOR1,FLB_OPSCOREXP_Charlie01_TAN_02,AAT_Items,AAT_Linked,AAT_WEP,AAT_MAG,Ranger_MAT_BAG_AOR1);
+
+	RANGER_SOLDIER(75th_AAT_GRN,"75th Ranger Assistant MAT RangerGreen","RangerGreen",g3roll_mct,flb_CryeAVS_LMG_GEAR_A_MCM,FLB_OPSCOREXP_Charlie01_Paint_03,AAT_Items,AAT_Linked,AAT_WEP,AAT_MAG,Ranger_MAT_BAG_RGR);
 };
