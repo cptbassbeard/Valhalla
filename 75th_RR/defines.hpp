@@ -92,13 +92,13 @@
 #define MAT_Linked CommonLinked,ItemAndroid, FLB_PVS31_Tan_02
 #define MAT_Items CommonItems, TF47_Optic_M3MAAWS
 #define MAT_WEP Ranger_DDMK18,TF47_M3MAAWS, Ranger_Glock19, Throw, Put, ACE_bino_m24
-#define MAT_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_3(150Rnd_762x51_box_tracer), mag_3(flb_Glock_17rnd_mag_JHP)
+#define MAT_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_pmag), mag_3(flb_Glock_17rnd_mag_JHP)
 
 //Assistant MAT Gear
 #define AAT_Linked CommonLinked,ItemAndroid, FLB_PVS31_Tan_02
 #define AAT_Items CommonItems
 #define AAT_WEP Ranger_DDMK18, Ranger_Glock19, Throw, Put, ACE_Vector
-#define AAT_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_pmag), mag_3(150Rnd_762x51_box_tracer), mag_3(flb_Glock_17rnd_mag_JHP)
+#define AAT_MAG mag_2(ACE_M84),mag_2(rhs_mag_m67),mag_2(SmokeShell), mag_7(rhs_mag_30Rnd_556x45_Mk318_pmag),mag_3(flb_Glock_17rnd_mag_JHP)
 
 
 
