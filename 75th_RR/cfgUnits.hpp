@@ -546,11 +546,11 @@ class cfgGroups
 					name = "75th Ranger Plt Stryker WD";
 					faction = "75th_RR";
 					class unit0
-					{
-						vehicle = "RANGER_STRYKER_PLT_WD";
-						rank = "SERGEANT";
-						position[] = {0,0,0};
-					};
+						{
+							vehicle = "RANGER_STRYKER_PLT_WD";
+							rank = "SERGEANT";
+							position[] = {0,0,0};
+						};
 					class Unit1
 						{
 							vehicle = "75th_PL_MC";
