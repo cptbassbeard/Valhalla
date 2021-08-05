@@ -324,12 +324,13 @@ class cfgVehicles
 		displayName = "75th Stryker - Plt Element - WD";
 		faction = "75th_RR";
 		author = "Team Valhalla";
-		vehicleClass = "Ground";
+		vehicleClass = "Armor";
 		side = 1;
 		crew = "75th_RF_MC";
 		class library
 		{
 			libTextDesc = "75th Stryker Platoon Vehicle (Woodland)";
 		};
+		animationList[] = {"Hide_DUKE",0,"Hatch_Commander",0,"Hatch_Left",0,"Hatch_Right",0,"Ramp",0,"Hide_Antenna_1",0,"Hide_Antenna_2",0,"Hide_Antenna_3",0,"Hide_CIP",0,"Hide_DEK",0,"Hide_ExDiff",0,"Hide_FCans",1,"Hide_WCans",0,"Hide_GPS",0,"Hide_PioKit",1,"Hide_StgBar",0,"Hide_SuspCov",0,"Hide_Towbar",0,"Extend_Mirrors",0,"Hatch_Driver",0};
 	};
 };
