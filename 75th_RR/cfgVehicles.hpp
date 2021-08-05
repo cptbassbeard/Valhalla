@@ -314,4 +314,22 @@ class cfgVehicles
 	RANGER_SOLDIER(75th_AAT_AOR1,"75th Ranger Assistant MAT AOR1","Desert",g3groll_aor1_tan,flb_CryeAVS_LMG_GEAR_A_AOR1,FLB_OPSCOREXP_Charlie01_TAN_02,AAT_Items,AAT_Linked,AAT_WEP,AAT_MAG,Ranger_MAT_BAG_AOR1);
 
 	RANGER_SOLDIER(75th_AAT_GRN,"75th Ranger Assistant MAT RangerGreen","RangerGreen",g3roll_mct,flb_CryeAVS_LMG_GEAR_A_MCM,FLB_OPSCOREXP_Charlie01_Paint_03,AAT_Items,AAT_Linked,AAT_WEP,AAT_MAG,Ranger_MAT_BAG_RGR);
+
+	//CUSTOM GROUND VEHICLES
+
+	class rhsusf_stryker_m1132_m2_np_wd; //base class call
+	class RANGER_STRYKER_PLT_WD: rhsusf_stryker_m1132_m2_np_wd
+	{
+		scope = 2;
+		displayName = "75th Stryker - Plt Element - WD";
+		faction = "75th_RR";
+		author = "Team Valhalla";
+		vehicleClass = "Ground";
+		side = 1;
+		crew = "75th_RF_MC";
+		class library
+		{
+			libTextDesc = "75th Stryker Platoon Vehicle (Woodland)";
+		};
+	};
 };
