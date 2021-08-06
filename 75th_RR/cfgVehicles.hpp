@@ -11,7 +11,27 @@ class cfgVehicles
 	class flb_511standard01_SL_TAN;
 	class flb_511standard01_SL_RGR;
 	class flb_511alpine01_SL_BLK;
+	class b_fieldPack_cbr;
 	//Custom Backpacks
+
+	//Vehicle Emergency Kit
+
+	class VehicleEmergencyKit: b_fieldPack_cbr
+	{
+		scope = 2;
+		DisplayName = "Vehicle Emergency Go-Bag";
+		class TransportItems
+		{
+			item_xx(Toolkit, 1);
+			item_xx(CUP_hgun_FlareGun, 1);
+			item_xx(ACE_Chemlight_HiGreen, 2);
+			item_xx(ACE_Chemlight_UltraHiOrange, 2);
+			item_xx(SmokeShellGreen, 2);
+			item_xx(SmokeShellOrange, 2);
+			item_xx(CUP_FlareGreen_265_M, 2);
+			item_xx(CUP_FlareRed_265_M, 2);
+		};
+	};
 
 	//Assistant MG Bag
 	class Ranger_AMG_BAG_MC: flb_511standard01_SL_MCM
@@ -331,7 +351,7 @@ class cfgVehicles
 		{
 			libTextDesc = "75th Stryker Platoon Vehicle (Woodland)";
 		};
-		textureList[] = {"White",1};
+		textureList[] = {"Olive",1};
 		animationList[] = {"Hide_DUKE",0,"Hatch_Commander",0,"Hatch_Left",0,"Hatch_Right",0,"Ramp",0,"Hide_Antenna_1",0,"Hide_Antenna_2",0,"Hide_Antenna_3",0,"Hide_CIP",0,"Hide_DEK",0,"Hide_ExDiff",0,"Hide_FCans",0,"Hide_WCans",0,"Hide_GPS",0,"Hide_PioKit",1,"Hide_StgBar",0,"Hide_SuspCov",0,"Hide_Towbar",0,"Extend_Mirrors",0,"Hatch_Driver",0};
 	};
 };
