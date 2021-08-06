@@ -455,7 +455,7 @@ class cfgVehicles
 		textureList[] = {"Olive",1};
 		animationList[] = {"SMP",1,"SMP_L",1,"SMP_R",1,"hide_SMP",1,"Hide_CIP",0,"Dispenser_Fold",0,"Hatch_Commander",0,"Hatch_Front",0,"Hatch_Left",0,"Hatch_Right",0,"Ramp",0,"Hide_Antenna_1",0,"Hide_Antenna_2",0,"Hide_Antenna_3",0,"Hide_DEK",0,"Hide_DUKE",0,"Hide_ExDiff",0,"Hide_FCans",0,"Hide_WCans",0,"Hide_GPS",0,"Hide_PioKit",1,"Hide_StgBar",0,"Hide_STORM",0,"Hide_SuspCov",0,"Hide_Towbar",0,"Extend_Mirrors",0,"Hatch_Driver",0};
 		class TransportMagazines
-			{
+		{
 			mag_xx(rhs_mag_30Rnd_556x45_Mk318_PMAG, 70);
 			mag_xx(rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote,10);
 			mag_xx(FLB_SR25_PMAG_BLK,10);
@@ -469,22 +469,22 @@ class cfgVehicles
 			mag_xx(ACE_Chemlight_HiGreen, 24);
 			mag_xx(ACE_Chemlight_HiRed, 24);
 			mag_xx(ACE_Chemlight_IR,24);
-			};
+		};
 		class TransportItems{};
 
 		class TransportWeapons
-			{
+		{
 			weap_xx(tf47_at4_heat, 2);
-			};
+		};
 		class TransportBackpacks
-			{
+		{
 			class _xx_VehicleEmergencyKit
 				{
 				backpack = VehicleEmergencyKit;
 				count = 1;
 				};
-			};
 		};
+	};
 	class 75th_STRYKER_SQUAD_M2_D: 75th_STRYKER_SQUAD_M2_WD
 	{
 		displayName = "75th Stryker RifleSquad M2 D"
