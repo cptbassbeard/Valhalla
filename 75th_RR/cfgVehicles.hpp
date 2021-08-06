@@ -430,7 +430,7 @@ class cfgVehicles
 			};
 		};
 	};
-	class 75th_STRYKER_PLT_D: RANGER_STRYKER_PLT_WD
+	class 75th_STRYKER_PLT_D: 75th_STRYKER_PLT_WD
 	{
 		displayName = "75th Stryker - Plt Element - D";
 		textureList[] = {"Tan",1};
@@ -438,6 +438,7 @@ class cfgVehicles
 	};
 
 	//Stryker Rifle Squad Vic
+	class rhsusf_stryker_m1132_m2_wd;
 	class 75th_STRYKER_SQUAD_M2_WD: rhsusf_stryker_m1132_m2_wd
 		{
 		scope = 2;
