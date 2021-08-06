@@ -576,7 +576,7 @@ class cfgGroups
 							position[] = {0,-10,0};
 						};
 				};
-				class 75th_Stryker_Squad_M2_WD
+				class 75th_Stryker_RifleSquad_M2_WD
 				{
 					name = "75th Stryker RifleSquad WD";
 					faction = "75th_RR";
@@ -682,7 +682,7 @@ class cfgGroups
 							position[] = {0,-10,0};
 						};
 				};
-				class 75th_Stryker_Squad_M2_D
+				class 75th_Stryker_RifleSquad_M2_D
 				{
 					name = "75th Stryker RifleSquad D";
 					faction = "75th_RR";
