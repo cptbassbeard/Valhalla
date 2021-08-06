@@ -383,8 +383,9 @@ class cfgVehicles
 
 	//CUSTOM GROUND VEHICLES
 
+	//Platoon HQ Stryker
 	class rhsusf_stryker_m1127_m2_wd; //base class call
-	class RANGER_STRYKER_PLT_WD: rhsusf_stryker_m1127_m2_wd
+	class 75th_STRYKER_PLT_WD: rhsusf_stryker_m1127_m2_wd
 	{
 		scope = 2;
 		displayName = "75th Stryker - Plt Element - WD";
@@ -407,7 +408,7 @@ class cfgVehicles
 			mag_xx(SmokeShellGreen,2);
 			mag_xx(SmokeShellYellow,2);
 			mag_xx(rhs_mag_m67,12);
-			mag_xx(ACE_M84);
+			mag_xx(ACE_M84,12);
 		};
 		class TransportItems{};
 
@@ -429,10 +430,68 @@ class cfgVehicles
 			};
 		};
 	};
-	class RANGER_STRYKER_PLT_D: RANGER_STRYKER_PLT_WD
+	class 75th_STRYKER_PLT_D: RANGER_STRYKER_PLT_WD
 	{
 		displayName = "75th Stryker - Plt Element - D";
 		textureList[] = {"Tan",1};
 		crew = "75th_RF_AOR1";
+	};
+
+	//Stryker Rifle Squad Vic
+	class 75th_STRYKER_SQUAD_M2_WD: rhsusf_stryker_m1132_m2_wd
+		{
+		scope = 2;
+		displayName = "75th Stryker RifleSquad M2 WD";
+		faction = "75th_RR";
+		author = "Team Valhalla";
+		vehicleClass = "Armored";
+		side = 1;
+		crew = "75th_RF_MC";
+		class library
+		{
+			libTextDesc = "75th Stryker Rifle Squad M2 (Woodland)";
+		};
+		textureList[] = {"Olive",1};
+		animationList[] = {"SMP",1,"SMP_L",1,"SMP_R",1,"hide_SMP",1,"Hide_CIP",0,"Dispenser_Fold",0,"Hatch_Commander",0,"Hatch_Front",0,"Hatch_Left",0,"Hatch_Right",0,"Ramp",0,"Hide_Antenna_1",0,"Hide_Antenna_2",0,"Hide_Antenna_3",0,"Hide_DEK",0,"Hide_DUKE",0,"Hide_ExDiff",0,"Hide_FCans",0,"Hide_WCans",0,"Hide_GPS",0,"Hide_PioKit",1,"Hide_StgBar",0,"Hide_STORM",0,"Hide_SuspCov",0,"Hide_Towbar",0,"Extend_Mirrors",0,"Hatch_Driver",0};
+		class TransportMagazines
+			{
+			mag_xx(rhs_mag_30Rnd_556x45_Mk318_PMAG, 70);
+			mag_xx(rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote,10);
+			mag_xx(FLB_SR25_PMAG_BLK,10);
+			mag_xx(SmokeShell,24);
+			mag_xx(SmokeShellBlue,2);
+			mag_xx(SmokeShellGreen,4);
+			mag_xx(SmokeShellYellow,2);
+			mag_xx(rhs_mag_m67,24);
+			mag_xx(ACE_M84,24);
+			mag_xx(rhs_mag_M433_HEDP,16);
+			mag_xx(ACE_Chemlight_HiGreen, 24);
+			mag_xx(ACE_Chemlight_HiRed, 24);
+			mag_xx(ACE_Chemlight_IR,24);
+			};
+		class TransportItems{};
+
+		class TransportWeapons
+			{
+			weap_xx(tf47_at4_heat, 2);
+			};
+		class TransportBackpacks
+			{
+			class _xx_VehicleEmergencyKit
+				{
+				backpack = VehicleEmergencyKit;
+				count = 1;
+				};
+			};
+		};
+	};
+	class 75th_STRYKER_SQUAD_M2_D: 75th_STRYKER_SQUAD_M2_WD
+	{
+		displayName = "75th Stryker RifleSquad M2 D"
+		class library
+		{
+			libTextDesc = "75th Stryker Rifle Squad M2 (Desert)";
+		};
+		textureList[] = {"Tan",1};
 	};
 };

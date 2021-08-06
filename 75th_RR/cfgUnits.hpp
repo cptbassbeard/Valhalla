@@ -576,7 +576,74 @@ class cfgGroups
 							position[] = {0,-10,0};
 						};
 				};
+				class 75th_Stryker_Squad_M2_WD
+				{
+					name = "75th Stryker RifleSquad WD";
+					faction = "75th_RR";
+
+					class Unit0
+					{
+						vehicle = "75th_SL_MC";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						vehicle = "75th_FTL_MC";
+						rank = "PRIVATE";
+						position[] = {-3,3,0};
+					};
+					class Unit2
+					{
+						vehicle = "75th_AR_MC";
+						rank = "PRIVATE";
+						position[] = {-3,5,0};
+					};
+					class Unit3
+					{
+						vehicle = "75th_GR_MC";
+						rank = "PRIVATE";
+						position[] = {-3,7,0};
+					};
+					class Unit4
+					{
+						vehicle = "75th_RF_MC";
+						rank = "PRIVATE";
+						position[] = {-3,9,0};
+					};
+					class Unit5
+					{
+						vehicle = "75th_FTL_MC";
+						rank = "PRIVATE";
+						position[] = {3,3,0};
+					};
+					class Unit6
+					{
+						vehicle = "75th_AR_MC";
+						rank = "PRIVATE";
+						position[] = {3,5,0};
+					};
+					class Unit7
+					{
+						vehicle = "75th_GR_MC";
+						rank = "PRIVATE";
+						position[] = {3,7,0};
+					};
+					class Unit8
+					{
+						vehicle = "75th_RF_MC";
+						rank = "PRIVATE";
+						position[] = {3,9,0};
+					};
+					class unit9
+					{
+						vehicle = "RANGER_STRYKER_PLT_WD";
+						rank = "SERGEANT";
+						position[] = {0,11,0};
+					};
+				};
 			};
+
 			class Stryker_APC_D
 			{
 				Name = "75th Ranger StrykerAPC D";
@@ -614,6 +681,72 @@ class cfgGroups
 							rank = "SERGEANT";
 							position[] = {0,-10,0};
 						};
+				};
+				class 75th_Stryker_Squad_M2_D
+				{
+					name = "75th Stryker RifleSquad D";
+					faction = "75th_RR";
+
+					class Unit0
+					{
+						vehicle = "75th_SL_AOR1";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						vehicle = "75th_FTL_AOR1";
+						rank = "PRIVATE";
+						position[] = {-3,3,0};
+					};
+					class Unit2
+					{
+						vehicle = "75th_AR_AOR1";
+						rank = "PRIVATE";
+						position[] = {-3,5,0};
+					};
+					class Unit3
+					{
+						vehicle = "75th_GR_AOR1";
+						rank = "PRIVATE";
+						position[] = {-3,7,0};
+					};
+					class Unit4
+					{
+						vehicle = "75th_RF_AOR1";
+						rank = "PRIVATE";
+						position[] = {-3,9,0};
+					};
+					class Unit5
+					{
+						vehicle = "75th_FTL_AOR1";
+						rank = "PRIVATE";
+						position[] = {3,3,0};
+					};
+					class Unit6
+					{
+						vehicle = "75th_AR_AOR1";
+						rank = "PRIVATE";
+						position[] = {3,5,0};
+					};
+					class Unit7
+					{
+						vehicle = "75th_GR_AOR1";
+						rank = "PRIVATE";
+						position[] = {3,7,0};
+					};
+					class Unit8
+					{
+						vehicle = "75th_RF_AOR1";
+						rank = "PRIVATE";
+						position[] = {3,9,0};
+					};
+					class unit9
+					{
+						vehicle = "RANGER_STRYKER_PLT_D";
+						rank = "SERGEANT";
+						position[] = {0,11,0};
+					};
 				};
 			};
 		};	
