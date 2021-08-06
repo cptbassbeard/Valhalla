@@ -637,7 +637,7 @@ class cfgGroups
 					};
 					class unit9
 					{
-						vehicle = "75th_STRYKER_SQUAD_WD";
+						vehicle = "75th_STRYKER_SQUAD_M2_WD";
 						rank = "SERGEANT";
 						position[] = {0,11,0};
 					};
@@ -743,7 +743,7 @@ class cfgGroups
 					};
 					class unit9
 					{
-						vehicle = "75th_STRYKER_SQUAD_D";
+						vehicle = "75th_STRYKER_SQUAD_M2_D";
 						rank = "SERGEANT";
 						position[] = {0,11,0};
 					};
