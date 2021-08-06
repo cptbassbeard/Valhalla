@@ -478,7 +478,7 @@ class cfgVehicles
 		};
 		class TransportBackpacks
 		{
-			class _xx_VehicleEmergencyKit
+			class _xx_VehicleEmergencyKit2
 				{
 				backpack = VehicleEmergencyKit;
 				count = 1;
