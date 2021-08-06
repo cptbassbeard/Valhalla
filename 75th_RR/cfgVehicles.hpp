@@ -148,7 +148,7 @@ class cfgVehicles
 	class Ranger_Medbag_MC:flb_mappack_Medical01_mc
 	{
 		scope = 2;
-		DisplayName = "Ranger Medical Go-Bag (MC)";
+		DisplayName = "Ranger Medical Kitbag (MC)";
 		class TransportItems
 		{
 			item_xx(ACE_elasticBandage, 10);
@@ -167,7 +167,7 @@ class cfgVehicles
 	class Ranger_Medbag_blk:flb_mappack_Medical01_blk
 	{
 		scope = 2;
-		DisplayName = "Ranger Medical Go-Bag (Black)";
+		DisplayName = "Ranger Medical Kitbag (Black)";
 		class TransportItems
 		{
 			item_xx(ACE_elasticBandage, 10);
@@ -186,7 +186,7 @@ class cfgVehicles
 	class Ranger_Medbag_RGR:flb_mappack_Medical01_od
 	{
 		scope = 2;
-		DisplayName = "Ranger Medical Go-Bag (RangerGreen)";
+		DisplayName = "Ranger Medical Kitbag (RangerGreen)";
 		class TransportItems
 		{
 			item_xx(ACE_elasticBandage, 10);
@@ -205,7 +205,7 @@ class cfgVehicles
 	class Ranger_Medbag_AOR1:flb_mappack_Medical01_tan
 	{
 		scope = 2;
-		DisplayName = "Ranger Medical Go-Bag (AOR1)";
+		DisplayName = "Ranger Medical Kitbag (AOR1)";
 		class TransportItems
 		{
 			item_xx(ACE_elasticBandage, 10);
@@ -218,6 +218,31 @@ class cfgVehicles
 			item_xx(ACE_tourniquet, 12);
 			item_xx(ACE_surgicalKit, 1);
 			item_xx(ACE_Splint, 10);
+		};
+	};
+
+	class Ranger_Masscas_gobag:flb_mappack_Medical01_blk
+	{
+		scope = 2;
+		DisplayName = "Ranger Medical MASSCAS Go-Bag)";
+		maximumLoad = 400;
+		mass = 50;
+		class TransportItems
+		{
+			item_xx(ACE_elasticBandage, 50);
+			item_xx(ACE_packingBandage, 80);
+			item_xx(ACE_quikclot, 50);
+			item_xx(ACE_epinephrine, 25);
+			item_xx(ACE_morphine, 30);
+			item_xx(ACE_SalineIV, 10);
+			item_xx(ACE_salineIV_500, 20);
+			item_xx(ACE_tourniquet, 20);
+			item_xx(ACE_surgicalKit, 1);
+			item_xx(ACE_Splint, 20);
+		};
+		class TransportMagazines
+		{
+			mag_xx(SmokeShellPurple, 2);
 		};
 	};
 
@@ -367,6 +392,11 @@ class cfgVehicles
 			class _xx_VehicleEmergencyKit
 			{
 				backpack = VehicleEmergencyKit;
+				count = 1;
+			};
+			class _xx_Ranger_Masscas_gobag
+			{
+				backpack = Ranger_Masscas_gobag
 				count = 1;
 			};
 		};
