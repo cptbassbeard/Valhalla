@@ -439,7 +439,7 @@ class cfgVehicles
 
 	//Stryker Rifle Squad Vic
 	class rhsusf_stryker_m1132_m2_wd;
-	class 75th_STRYKER_SQUAD_M2_WD: rhsusf_stryker_m1132_m2_wd;
+	class 75th_STRYKER_SQUAD_M2_WD: rhsusf_stryker_m1132_m2_wd
 	{
 		scope = 2;
 		displayName = "75th Stryker RifleSquad M2 WD";
@@ -485,7 +485,7 @@ class cfgVehicles
 				};
 		};
 	};
-	
+
 	class 75th_STRYKER_SQUAD_M2_D: 75th_STRYKER_SQUAD_M2_WD
 	{
 		displayName = "75th Stryker RifleSquad M2 D";
