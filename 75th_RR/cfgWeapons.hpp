@@ -228,7 +228,7 @@ class cfgWeapons
 	{
 		author = "Team Valhalla";
 		baseWeapon = "Ranger_Mk12";
-		displayName = "Ranger MK12 DPR";
+		displayName = "Ranger MK12 DMR";
 		scope = 2;
 		scopeArsenal = 2;
 		class LinkedItems
