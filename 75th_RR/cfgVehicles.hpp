@@ -50,8 +50,11 @@ class cfgVehicles
 		class TransportItems
 		{
 			item_xx(ACE_EntrenchingTool, 1);
-			item_xx(150Rnd_762x51_box_tracer, 3);
 			item_xx(ACE_Sandbag_Empty, 20);
+		};
+		class TransportMagazines
+		{
+			mag_xx(150Rnd_762x51_box_tracer, 3);
 		};
 	};
 
@@ -62,8 +65,11 @@ class cfgVehicles
 		class TransportItems
 		{
 			item_xx(ACE_EntrenchingTool, 1);
-			item_xx(150Rnd_762x51_box_tracer, 3);
 			item_xx(ACE_Sandbag_Empty, 20);
+		};
+		class TransportMagazines
+		{
+			mag_xx(150Rnd_762x51_box_tracer, 3);
 		};
 	};
 
@@ -74,8 +80,11 @@ class cfgVehicles
 		class TransportItems
 		{
 			item_xx(ACE_EntrenchingTool, 1);
-			item_xx(150Rnd_762x51_box_tracer, 3);
 			item_xx(ACE_Sandbag_Empty, 20);
+		};
+		class TransportMagazines
+		{
+			mag_xx(150Rnd_762x51_box_tracer, 3);
 		};
 	};
 
@@ -86,8 +95,11 @@ class cfgVehicles
 		class TransportItems
 		{
 			item_xx(ACE_EntrenchingTool, 1);
-			item_xx(150Rnd_762x51_box_tracer, 3);
 			item_xx(ACE_Sandbag_Empty, 20);
+		};
+		class TransportMagazines
+		{
+			mag_xx(150Rnd_762x51_box_tracer, 3);
 		};
 	};
 
@@ -387,6 +399,20 @@ class cfgVehicles
 		};
 		textureList[] = {"Olive",1};
 		animationList[] = {"Hide_DUKE",0,"Hatch_Commander",0,"Hatch_Left",0,"Hatch_Right",0,"Ramp",0,"Hide_Antenna_1",0,"Hide_Antenna_2",0,"Hide_Antenna_3",0,"Hide_CIP",0,"Hide_DEK",0,"Hide_ExDiff",0,"Hide_FCans",0,"Hide_WCans",0,"Hide_GPS",0,"Hide_PioKit",1,"Hide_StgBar",0,"Hide_SuspCov",0,"Hide_Towbar",0,"Extend_Mirrors",0,"Hatch_Driver",0};
+		class TransportMagazines
+		{
+			mag_xx(rhs_mag_30Rnd_556x45_Mk318_PMAG, 40);
+			mag_xx(SmokeShell,12);
+			mag_xx(SmokeShellBlue,2);
+			mag_xx(SmokeShellGreen,2);
+			mag_xx(SmokeShellYellow,2);
+			mag_xx(rhs_mag_m67,12);
+			mag_xx(ACE_M84);
+		};
+		class TransportWeapons
+		{
+			weap_xx(tf47_at4_heat, 2);
+		};
 		class TransportBackpacks
 		{
 			class _xx_VehicleEmergencyKit
