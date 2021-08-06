@@ -431,7 +431,7 @@ class cfgVehicles
 	};
 	class RANGER_STRYKER_PLT_D: RANGER_STRYKER_PLT_WD
 	{
-		displayName = "75th Stryker = Plt Element - D";
+		displayName = "75th Stryker - Plt Element - D";
 		textureList[] = {"Tan",1};
 		crew = "75th_RF_AOR1";
 	};
