@@ -478,7 +478,7 @@ class cfgVehicles
 		};
 		class TransportBackpacks
 		{
-			class _xx_VehicleEmergencyKit2
+			class _xx_VehicleEmergencyKit
 				{
 				backpack = VehicleEmergencyKit;
 				count = 1;
@@ -487,7 +487,7 @@ class cfgVehicles
 	};
 	class 75th_STRYKER_SQUAD_M2_D: 75th_STRYKER_SQUAD_M2_WD
 	{
-		displayName = "75th Stryker RifleSquad M2 D"
+		displayName = "75th Stryker RifleSquad M2 D";
 		textureList[] = {"Tan",1};
 		crew = "75th_RF_AOR1";
 	};
