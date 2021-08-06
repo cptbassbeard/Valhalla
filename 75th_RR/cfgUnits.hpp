@@ -653,7 +653,7 @@ class cfgGroups
 					faction = "75th_RR";
 					class unit0
 						{
-							vehicle = "RANGER_STRYKER_PLT_D";
+							vehicle = "75th_STRYKER_PLT_D";
 							rank = "SERGEANT";
 							position[] = {0,0,0};
 						};
