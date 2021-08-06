@@ -538,7 +538,7 @@ class cfgGroups
 					};
 				};
 			};
-			class Stryker_APC
+			class Stryker_APC_WD
 			{
 				Name = "75th Ranger StrykerAPC WD";
 				class 75th_Stryker_Plt_WD
@@ -572,6 +572,45 @@ class cfgGroups
 					class Unit4
 						{
 							vehicle = "75th_JT_MC";
+							rank = "SERGEANT";
+							position[] = {0,-10,0};
+						};
+				};
+			};
+			class Stryker_APC_D
+			{
+				Name = "75th Ranger StrykerAPC D";
+				class 75th_Stryker_Plt_D
+				{
+					name = "75th Ranger Plt Stryker D";
+					faction = "75th_RR";
+					class unit0
+						{
+							vehicle = "RANGER_STRYKER_PLT_D";
+							rank = "SERGEANT";
+							position[] = {0,0,0};
+						};
+					class Unit1
+						{
+							vehicle = "75th_PL_AOR1";
+							rank = "LIEUTENANT";
+							position[] = {-5,-6,0};
+						};
+					class Unit2
+						{
+							vehicle = "75th_PSG_AOR1";
+							rank = "SERGEANT";
+							position[] = {-6,-6,0};
+						};
+					class Unit3
+						{
+							vehicle = "75th_MED_AOR1";
+							rank = "SERGEANT";
+							position[] = {6,-6,0};
+						};
+					class Unit4
+						{
+							vehicle = "75th_JT_AOR1";
 							rank = "SERGEANT";
 							position[] = {0,-10,0};
 						};

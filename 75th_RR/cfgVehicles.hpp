@@ -409,6 +409,8 @@ class cfgVehicles
 			mag_xx(rhs_mag_m67,12);
 			mag_xx(ACE_M84);
 		};
+		class TransportItems{};
+
 		class TransportWeapons
 		{
 			weap_xx(tf47_at4_heat, 2);
@@ -426,5 +428,11 @@ class cfgVehicles
 				count = 1;
 			};
 		};
+	};
+	class RANGER_STRYKER_PLT_D: RANGER_STRYKER_PLT_WD
+	{
+		displayName = "75th Stryker = Plt Element - D";
+		textureList[] = {"Tan",1};
+		crew = "75th_RF_AOR1";
 	};
 };
