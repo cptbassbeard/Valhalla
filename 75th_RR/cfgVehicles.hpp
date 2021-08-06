@@ -20,6 +20,8 @@ class cfgVehicles
 	{
 		scope = 2;
 		DisplayName = "Vehicle Emergency Go-Bag";
+		maximumLoad = 360;
+		mass = 20;
 		class TransportItems
 		{
 			item_xx(Toolkit, 1);
