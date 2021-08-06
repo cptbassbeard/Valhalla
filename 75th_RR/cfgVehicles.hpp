@@ -317,7 +317,7 @@ class cfgVehicles
 
 	//CUSTOM GROUND VEHICLES
 
-	class rhsusf_stryker_m1132_m2_np_wd; //base class call
+	class rhsusf_stryker_m1127_m2__wd; //base class call
 	class RANGER_STRYKER_PLT_WD: rhsusf_stryker_m1132_m2_np_wd
 	{
 		scope = 2;
@@ -331,6 +331,6 @@ class cfgVehicles
 		{
 			libTextDesc = "75th Stryker Platoon Vehicle (Woodland)";
 		};
-		animationList[] = {"Hide_DUKE",0,"Hatch_Commander",0,"Hatch_Left",0,"Hatch_Right",0,"Ramp",0,"Hide_Antenna_1",0,"Hide_Antenna_2",0,"Hide_Antenna_3",0,"Hide_CIP",0,"Hide_DEK",0,"Hide_ExDiff",0,"Hide_FCans",1,"Hide_WCans",0,"Hide_GPS",0,"Hide_PioKit",1,"Hide_StgBar",0,"Hide_SuspCov",0,"Hide_Towbar",0,"Extend_Mirrors",0,"Hatch_Driver",0};
+		animationList[] = {"Tan",1,"Hide_DUKE",0,"Hatch_Commander",0,"Hatch_Left",0,"Hatch_Right",0,"Ramp",0,"Hide_Antenna_1",0,"Hide_Antenna_2",0,"Hide_Antenna_3",0,"Hide_CIP",0,"Hide_DEK",0,"Hide_ExDiff",0,"Hide_FCans",0,"Hide_WCans",0,"Hide_GPS",0,"Hide_PioKit",1,"Hide_StgBar",0,"Hide_SuspCov",0,"Hide_Towbar",0,"Extend_Mirrors",0,"Hatch_Driver",0};
 	};
 };
