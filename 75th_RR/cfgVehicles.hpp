@@ -489,10 +489,7 @@ class cfgVehicles
 	class 75th_STRYKER_SQUAD_M2_D: 75th_STRYKER_SQUAD_M2_WD
 	{
 		displayName = "75th Stryker RifleSquad M2 D"
-		class library
-		{
-			libTextDesc = "75th Stryker Rifle Squad M2 (Desert)";
-		};
 		textureList[] = {"Tan",1};
+		crew = "75th_RF_AOR1";
 	};
 };
