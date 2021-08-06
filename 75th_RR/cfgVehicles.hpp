@@ -317,8 +317,8 @@ class cfgVehicles
 
 	//CUSTOM GROUND VEHICLES
 
-	class rhsusf_stryker_m1127_m2__wd; //base class call
-	class RANGER_STRYKER_PLT_WD: rhsusf_stryker_m1132_m2_np_wd
+	class rhsusf_stryker_m1127_m2_wd; //base class call
+	class RANGER_STRYKER_PLT_WD: rhsusf_stryker_m1127_m2_wd
 	{
 		scope = 2;
 		displayName = "75th Stryker - Plt Element - WD";
