@@ -25,13 +25,20 @@ class cfgVehicles
 		class TransportItems
 		{
 			item_xx(Toolkit, 1);
-			item_xx(CUP_hgun_FlareGun, 1);
-			item_xx(ACE_Chemlight_HiGreen, 2);
-			item_xx(ACE_Chemlight_UltraHiOrange, 2);
-			item_xx(SmokeShellGreen, 2);
-			item_xx(SmokeShellOrange, 2);
-			item_xx(CUP_FlareGreen_265_M, 2);
-			item_xx(CUP_FlareRed_265_M, 2);
+			
+		};
+		class TransportMagazines
+		{
+			mag_xx(ACE_Chemlight_HiGreen, 2);
+			mag_xx(ACE_Chemlight_UltraHiOrange, 2);
+			mag_xx(SmokeShellGreen, 2);
+			mag_xx(SmokeShellOrange, 2);
+			mag_xx(CUP_FlareGreen_265_M, 2);
+			mag_xx(CUP_FlareRed_265_M, 2);
+		};
+		class TransportWeapons
+		{
+			weap_xx(CUP_hgun_FlareGun, 1);
 		};
 	};
 
@@ -355,5 +362,13 @@ class cfgVehicles
 		};
 		textureList[] = {"Olive",1};
 		animationList[] = {"Hide_DUKE",0,"Hatch_Commander",0,"Hatch_Left",0,"Hatch_Right",0,"Ramp",0,"Hide_Antenna_1",0,"Hide_Antenna_2",0,"Hide_Antenna_3",0,"Hide_CIP",0,"Hide_DEK",0,"Hide_ExDiff",0,"Hide_FCans",0,"Hide_WCans",0,"Hide_GPS",0,"Hide_PioKit",1,"Hide_StgBar",0,"Hide_SuspCov",0,"Hide_Towbar",0,"Extend_Mirrors",0,"Hatch_Driver",0};
+		class TransportBackpacks
+		{
+			class _xx_CustomBackpack
+			{
+				backpack = VehicleEmergencyKit;
+				count = 1;
+			};
+		};
 	};
 };
